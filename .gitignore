@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Virtual environments
+.venv/
+.env/
+venv/
+ENV/
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Tool caches
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.cache/
+
+# Coverage variants
+.coverage.*
+coverage.xml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files / secrets
+.env.local
+.env.*.local
+*.env
+*.envrc
+
+# Lockfiles (if you use pyenv/poetry)
+.python-version
+poetry.lock
+
+# macOS
+.DS_Store
+
+# Editors
+*.swp
+.idea/
+.vscode/
+
+# Script artifacts
+scripts/outputs/
+
+# Hatch
+.hatch/
+
+# Project artifacts
+books/
+data/runs/
+outputs/
+artifacts/

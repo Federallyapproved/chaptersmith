@@ -1,0 +1,91 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "chaptersmith"
+version = "0.1.0"
+description = "Tools for normalizing, tokenizing, and bundling book chapters."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+  {name = "Chaptersmith Developers"}
+]
+requires-python = ">=3.11"
+dependencies = [
+  "ebooklib",
+  "beautifulsoup4",
+  "lxml",
+  "markdown-it-py",
+  "tiktoken",
+  "typer[all]",
+  "rich",
+  "chardet",
+  "PyYAML",
+]
+
+[project.scripts]
+chaptersmith = "chaptersmith.cli:app"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["chaptersmith"]
+
+[tool.hatch.envs.default]
+dependencies = [
+  "pytest",
+  "pytest-cov",
+  "ruff",
+  "mypy",
+  "types-beautifulsoup4",
+  "types-chardet",
+]
+
+[tool.hatch.envs.default.env-vars]
+PYTHONDONTWRITEBYTECODE = "1"
+
+[tool.hatch.envs.default.scripts]
+test = "pytest"
+lint = "ruff check ."
+fmt = "ruff format ."
+typecheck = "mypy chaptersmith tests"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "I", "UP", "N", "S", "BLE", "C4"]
+ignore = []
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S101"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"
+
+[tool.mypy]
+python_version = "3.11"
+warn_unused_configs = true
+warn_return_any = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+warn_no_return = true
+warn_unreachable = true
+strict_equality = true
+no_implicit_optional = true
+disallow_untyped_defs = true
+disallow_any_generics = true
+exclude = [
+  "build",
+  "dist",
+]
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+disallow_untyped_defs = false
+warn_return_any = false
