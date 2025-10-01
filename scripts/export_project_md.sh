@@ -88,6 +88,8 @@ exclude_globs=(
   "*/.idea/*"
   ".vscode/*"
   "*/.vscode/*"
+  "data/*"
+  "*/data/*"
   "build/*"
   "*/build/*"
   "dist/*"

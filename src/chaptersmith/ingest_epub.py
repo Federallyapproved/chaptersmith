@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import difflib
 import logging
 import re as _re
 import warnings
@@ -15,7 +16,7 @@ from bs4 import BeautifulSoup, Tag, XMLParsedAsHTMLWarning
 from ebooklib import epub
 
 from .models import Book, Chapter
-from .normalize import clean_text, to_markdown
+from .normalize import clean_text, to_markdown, slugify
 from .tokenize_count import count_gpt5_tokens
 
 LOGGER = logging.getLogger(__name__)
@@ -155,9 +156,17 @@ def ingest_epub(
             )
         )
 
+    deduped, dropped = _coalesce_duplicate_chapters(chapters)
+    chapters = deduped
+
     book_meta: dict[str, object] = {}
     if warnings:
         book_meta["warnings"] = warnings
+    if dropped:
+        book_meta.setdefault("warnings", [])
+        book_meta["warnings"].append(
+            f"Deduplicated {dropped} duplicate chapter entries (same title/content)."
+        )
 
     return Book(
         id=book_id,
@@ -270,16 +279,16 @@ def _load_toc_entries(epub_book: epub.EpubBook) -> list[TocEntry]:
     nav_items = [it for it in epub_book.get_items() if isinstance(it, epub.EpubNav)]
     nav_entries = _parse_nav_items(nav_items)
     if nav_entries:
-        return nav_entries
+        return _canonicalize_toc(nav_entries)
 
     # Fallback: EPUB 2 NCX if present
     ncx_items = [it for it in epub_book.get_items() if isinstance(it, epub.EpubNcx)]
     ncx_entries = _parse_ncx_items(ncx_items)
     if ncx_entries:
-        return ncx_entries
+        return _canonicalize_toc(ncx_entries)
 
     # Final fallback: ebooklib's synthesized book.toc
-    return _parse_book_toc(epub_book.toc)
+    return _canonicalize_toc(_parse_book_toc(epub_book.toc))
 
 
 def _nav_leaf_lis(nav: Tag) -> Iterator[Tuple[int, Tag]]:
@@ -288,7 +297,8 @@ def _nav_leaf_lis(nav: Tag) -> Iterator[Tuple[int, Tag]]:
     def _walk_list(list_node: Tag, depth: int) -> Iterator[Tuple[int, Tag]]:
         for li in list_node.find_all("li", recursive=False):
             # If this li contains a nested list, it's a container; walk its children, don't emit it.
-            nested = li.find(["ol", "ul"], recursive=False)
+            # Some NAVs wrap nested lists in an extra container before the list itself.
+            nested = li.find(["ol", "ul"])
             if nested:
                 yield from _walk_list(nested, depth + 1)
             else:
@@ -377,6 +387,34 @@ def _dedupe_toc_entries(entries: list[TocEntry]) -> list[TocEntry]:
             kept.append(seen[key])
             kept_keys.add(key)
     return kept
+
+
+def _canonicalize_toc(entries: list[TocEntry]) -> list[TocEntry]:
+    """
+    Strengthen dedupe: after target-based dedupe, also collapse multiple
+    entries that have the same normalized file and (roughly) the same title.
+    Prefer the entry that has a fragment (is more precise).
+    """
+
+    if not entries:
+        return []
+
+    stage1 = _dedupe_toc_entries(entries)
+    by_key: dict[tuple[str, str], TocEntry] = {}
+    for entry in stage1:
+        key = (_normalize_href(entry.file_href), _normalize_title(entry.title))
+        keep = by_key.get(key)
+        if keep is None or (not keep.fragment and entry.fragment):
+            by_key[key] = entry
+
+    ordered: list[TocEntry] = []
+    seen_keys: set[tuple[str, str]] = set()
+    for entry in stage1:
+        key = (_normalize_href(entry.file_href), _normalize_title(entry.title))
+        if key not in seen_keys and key in by_key:
+            ordered.append(by_key[key])
+            seen_keys.add(key)
+    return ordered
 
 
 def _next_spined_entry(
@@ -833,6 +871,88 @@ def _merge_nav_and_heading(nav_title: str, pieces: dict[str, str]) -> str:
         return cap_len(local_title)
 
     return cap_len(nav or "Untitled")
+
+
+def _coalesce_duplicate_chapters(chapters: list[Chapter]) -> tuple[list[Chapter], int]:
+    """
+    Collapse duplicate chapters that arise from ToC variants pointing to the same
+    file and enriching to the same slug. Preference order:
+      1. Chapter entries with an anchor fragment
+      2. Longer text blocks (keeps richer content)
+
+    Returns the filtered chapter list and the count of dropped duplicates.
+    """
+
+    if not chapters:
+        return chapters, 0
+
+    front = [ch for ch in chapters if ch.id == "front-matter"]
+    back = [ch for ch in chapters if ch.id == "back-matter"]
+    core = [ch for ch in chapters if ch.id not in ("front-matter", "back-matter")]
+
+    seen: dict[tuple[str, str], int] = {}
+    unique: list[Chapter] = []
+    dropped = 0
+
+    def score(chapter: Chapter) -> tuple[int, int]:
+        anchor = None
+        if isinstance(chapter.source, dict):
+            anchor = chapter.source.get("anchor")
+        has_anchor = 1 if anchor else 0
+        return has_anchor, len(chapter.text)
+
+    for chapter in core:
+        href = ""
+        if isinstance(chapter.source, dict):
+            href = _normalize_href(chapter.source.get("href") or "")
+        key = (href, slugify(chapter.title))
+        existing_index = seen.get(key)
+        if existing_index is None:
+            seen[key] = len(unique)
+            unique.append(chapter)
+            continue
+
+        dropped += 1
+        current_best = unique[existing_index]
+        if score(chapter) > score(current_best):
+            unique[existing_index] = chapter
+
+    # Second pass: collapse near-identical siblings that share a slug
+    def _norm_text(text: str) -> str:
+        normalized = clean_text(text).lower()
+        normalized = _re.sub(r"[^a-z0-9\s]+", " ", normalized)
+        return _re.sub(r"\s+", " ", normalized).strip()
+
+    i = 0
+    while i < len(unique) - 1:
+        current = unique[i]
+        nxt = unique[i + 1]
+        if slugify(current.title) == slugify(nxt.title):
+            left = _norm_text(current.text)
+            right = _norm_text(nxt.text)
+            ratio = difflib.SequenceMatcher(None, left, right).ratio() if left and right else 0.0
+            if ratio >= 0.94:
+                preferred = current if score(current) >= score(nxt) else nxt
+                unique[i] = preferred
+                del unique[i + 1]
+                dropped += 1
+                continue
+        i += 1
+
+    for idx, chapter in enumerate(unique, start=1):
+        chapter.id = f"chapter-{idx:02d}"
+        chapter.order = idx
+
+    result: list[Chapter] = []
+    if front:
+        result.append(front[0])
+    result.extend(unique)
+    if back:
+        back_chapter = back[0]
+        back_chapter.order = len(result)
+        result.append(back_chapter)
+
+    return result, dropped
 
 
 def _first_or_default(metadata: list[tuple[str, dict]]) -> str | None:

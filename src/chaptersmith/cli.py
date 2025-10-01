@@ -129,7 +129,10 @@ def split(
     format: Literal["epub", "html", "md", "fb2"] = typer.Option(
         ..., "--format", "-f", help="Source format."
     ),
-    out: Path | None = typer.Option(None, help="Output directory (default: slug of book title)."),
+    out: Path | None = typer.Option(
+        None,
+        help="Output directory (default: data/<slug-of-book-title>).",
+    ),
     book_id: str | None = typer.Option(None, help="Override book identifier."),
     title: str | None = typer.Option(None, help="Override book title."),
     author: str | None = typer.Option(None, help="Override book author."),
@@ -164,7 +167,10 @@ def split(
         raise typer.BadParameter("FB2 ingestion is not yet implemented.")
 
     # Compute default outdir if not provided
-    outdir = out or Path(_slugify_title(book.title))
+    if out is None:
+        outdir = Path("data") / _slugify_title(book.title)
+    else:
+        outdir = out
 
     # Classify chapters and optionally select subset
     for ch in book.chapters:
@@ -353,16 +359,19 @@ def _write_chapters(book: Book, outdir: Path) -> None:
     chapters_dir = outdir / "chapters"
     chapters_dir.mkdir(parents=True, exist_ok=True)
 
-    used: set[str] = set()
+    # Track current markdown files so we can prune stale ones
+    existing_files = {p.name for p in chapters_dir.glob("*.md")}
+    used_slugs: set[str] = set()
+    written_files: set[str] = set()
     for chapter in book.chapters:
         chapter.meta = chapter.meta or {}
         base = _slugify_title(chapter.title)
         slug = base
         suffix = 1
-        while slug in used:
+        while slug in used_slugs:
             suffix += 1
             slug = f"{base}-{suffix}"
-        used.add(slug)
+        used_slugs.add(slug)
 
         filename = chapters_dir / f"{slug}.md"
         front_matter = {
@@ -371,14 +380,20 @@ def _write_chapters(book: Book, outdir: Path) -> None:
             "order": chapter.order,
             "source": chapter.source,
             "est_tokens": chapter.est_tokens or 0,
+            "slug": slug,
             "meta": chapter.meta,
         }
         body = chapter.text.rstrip("\n")
         content = "\n".join(("---", json.dumps(front_matter, indent=2), "---", body))
         filename.write_text(content + "\n", encoding="utf-8")
+        written_files.add(filename.name)
 
         # Attach filename to meta for index writing
         chapter.meta["filename"] = f"{slug}.md"
+
+    # Remove markdown files that were not re-generated in this run
+    for stale in existing_files - written_files:
+        (chapters_dir / stale).unlink(missing_ok=True)
 
 
 def _write_index(book: Book, outdir: Path) -> None:
@@ -578,5 +593,10 @@ def _read_markdown_payload(
     return content.rstrip("\n"), fallback_meta.copy() if fallback_meta else {}
 
 
-if __name__ == "__main__":  # pragma: no cover
+def main() -> None:
+    """Entrypoint used by the console script."""
     app()
+
+
+if __name__ == "__main__":  # pragma: no cover
+    main()

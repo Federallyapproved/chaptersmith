@@ -1,0 +1,622 @@
+{
+  "book": {
+    "id": "eISBN-978-0-231-54168-8",
+    "title": "Inside the Investments of Warren Buffett",
+    "author": "Yefei Lu",
+    "source_format": "epub"
+  },
+  "chapters": [
+    {
+      "id": "chapter-01",
+      "title": "Cover",
+      "order": 1,
+      "est_tokens": 12,
+      "source": {
+        "href": "cover.xhtml",
+        "anchor": null
+      },
+      "meta": {
+        "nav_title": "Cover",
+        "enriched_from": "start-heading",
+        "kind": "cover",
+        "filename": "cover.md"
+      },
+      "filename": "cover.md",
+      "kind": "cover"
+    },
+    {
+      "id": "chapter-02",
+      "title": "Title Page",
+      "order": 2,
+      "est_tokens": 0,
+      "source": {
+        "href": "title.xhtml",
+        "anchor": null
+      },
+      "meta": {
+        "nav_title": "Title Page",
+        "enriched_from": "start-heading",
+        "kind": "title-page",
+        "filename": "title-page.md"
+      },
+      "filename": "title-page.md",
+      "kind": "title-page"
+    },
+    {
+      "id": "chapter-03",
+      "title": "Publishers Since 1893",
+      "order": 3,
+      "est_tokens": 248,
+      "source": {
+        "href": "copyright.xhtml",
+        "anchor": null
+      },
+      "meta": {
+        "nav_title": "Copyright",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "publishers-since-1893.md"
+      },
+      "filename": "publishers-since-1893.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-04",
+      "title": "To my love, Nora, and our beautiful daughter, Lily",
+      "order": 4,
+      "est_tokens": 12,
+      "source": {
+        "href": "dedication.xhtml",
+        "anchor": null
+      },
+      "meta": {
+        "nav_title": "Dedication",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "to-my-love-nora-and-our-beautiful-daughter-lily.md"
+      },
+      "filename": "to-my-love-nora-and-our-beautiful-daughter-lily.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-05",
+      "title": "Acknowledgments",
+      "order": 5,
+      "est_tokens": 292,
+      "source": {
+        "href": "contents.xhtml",
+        "anchor": null
+      },
+      "meta": {
+        "nav_title": "Contents",
+        "enriched_from": "start-heading",
+        "kind": "acknowledgments",
+        "filename": "acknowledgments.md"
+      },
+      "filename": "acknowledgments.md",
+      "kind": "acknowledgments"
+    },
+    {
+      "id": "chapter-06",
+      "title": "Acknowledgments",
+      "order": 6,
+      "est_tokens": 809,
+      "source": {
+        "href": "ack.xhtml",
+        "anchor": "rack"
+      },
+      "meta": {
+        "nav_title": "Acknowledgments",
+        "enriched_from": "start-heading",
+        "kind": "acknowledgments",
+        "filename": "acknowledgments-2.md"
+      },
+      "filename": "acknowledgments-2.md",
+      "kind": "acknowledgments"
+    },
+    {
+      "id": "chapter-07",
+      "title": "Introduction",
+      "order": 7,
+      "est_tokens": 1614,
+      "source": {
+        "href": "int.xhtml",
+        "anchor": "rint"
+      },
+      "meta": {
+        "nav_title": "Introduction",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "introduction.md"
+      },
+      "filename": "introduction.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-08",
+      "title": "Chapter 1 \u2014 1958: Sanborn Map Company",
+      "order": 8,
+      "est_tokens": 5634,
+      "source": {
+        "href": "ch01.xhtml",
+        "anchor": "rch1"
+      },
+      "meta": {
+        "nav_title": "1. 1958: Sanborn Map Company",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-1-1958-sanborn-map-company.md"
+      },
+      "filename": "chapter-1-1958-sanborn-map-company.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-09",
+      "title": "Chapter 2 \u2014 1961: Dempster Mill Manufacturing Company",
+      "order": 9,
+      "est_tokens": 4952,
+      "source": {
+        "href": "ch02.xhtml",
+        "anchor": "rch2"
+      },
+      "meta": {
+        "nav_title": "2. 1961: Dempster Mill Manufacturing Company",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-2-1961-dempster-mill-manufacturing-company.md"
+      },
+      "filename": "chapter-2-1961-dempster-mill-manufacturing-company.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-10",
+      "title": "Chapter 3 \u2014 1964: Texas National Petroleum Company",
+      "order": 10,
+      "est_tokens": 2380,
+      "source": {
+        "href": "ch03.xhtml",
+        "anchor": "rch3"
+      },
+      "meta": {
+        "nav_title": "3. 1964: Texas National Petroleum Company",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-3-1964-texas-national-petroleum-company.md"
+      },
+      "filename": "chapter-3-1964-texas-national-petroleum-company.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-11",
+      "title": "Chapter 4 \u2014 1964: American Express",
+      "order": 11,
+      "est_tokens": 7766,
+      "source": {
+        "href": "ch04.xhtml",
+        "anchor": "rch4"
+      },
+      "meta": {
+        "nav_title": "4. 1964: American Express",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-4-1964-american-express.md"
+      },
+      "filename": "chapter-4-1964-american-express.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-12",
+      "title": "Chapter 5 \u2014 1965: Berkshire Hathaway",
+      "order": 12,
+      "est_tokens": 6930,
+      "source": {
+        "href": "ch05.xhtml",
+        "anchor": "rch5"
+      },
+      "meta": {
+        "nav_title": "5. 1965: Berkshire Hathaway",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-5-1965-berkshire-hathaway.md"
+      },
+      "filename": "chapter-5-1965-berkshire-hathaway.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-13",
+      "title": "Chapter 6 \u2014 1967: National Indemnity Company",
+      "order": 13,
+      "est_tokens": 1197,
+      "source": {
+        "href": "ch06.xhtml",
+        "anchor": "rch6"
+      },
+      "meta": {
+        "nav_title": "6. 1967: National Indemnity Company",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-6-1967-national-indemnity-company.md"
+      },
+      "filename": "chapter-6-1967-national-indemnity-company.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-14",
+      "title": "Chapter 7 \u2014 1972: See\u2019s Candies",
+      "order": 14,
+      "est_tokens": 2534,
+      "source": {
+        "href": "ch07.xhtml",
+        "anchor": "rch7"
+      },
+      "meta": {
+        "nav_title": "7. 1972: See\u2019s Candies",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-7-1972-sees-candies.md"
+      },
+      "filename": "chapter-7-1972-sees-candies.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-15",
+      "title": "Chapter 8 \u2014 1973: The Washington Post",
+      "order": 15,
+      "est_tokens": 6717,
+      "source": {
+        "href": "ch08.xhtml",
+        "anchor": "rch8"
+      },
+      "meta": {
+        "nav_title": "8. 1973: The Washington Post",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-8-1973-the-washington-post.md"
+      },
+      "filename": "chapter-8-1973-the-washington-post.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-16",
+      "title": "Chapter 9 \u2014 1976: GEICO (Government Employees Insurance Company)",
+      "order": 16,
+      "est_tokens": 2875,
+      "source": {
+        "href": "ch09.xhtml",
+        "anchor": "rch9"
+      },
+      "meta": {
+        "nav_title": "9. 1976: GEICO (Government Employees Insurance Company)",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-9-1976-geico-government-employees-insurance-company.md"
+      },
+      "filename": "chapter-9-1976-geico-government-employees-insurance-company.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-17",
+      "title": "Chapter 10 \u2014 1977: The Buffalo Evening News",
+      "order": 17,
+      "est_tokens": 2018,
+      "source": {
+        "href": "ch10.xhtml",
+        "anchor": "rch10"
+      },
+      "meta": {
+        "nav_title": "10. 1977: The Buffalo Evening News",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-10-1977-the-buffalo-evening-news.md"
+      },
+      "filename": "chapter-10-1977-the-buffalo-evening-news.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-18",
+      "title": "Chapter 11 \u2014 1983: Nebraska Furniture Mart",
+      "order": 18,
+      "est_tokens": 2498,
+      "source": {
+        "href": "ch11.xhtml",
+        "anchor": "rch11"
+      },
+      "meta": {
+        "nav_title": "11. 1983: Nebraska Furniture Mart",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-11-1983-nebraska-furniture-mart.md"
+      },
+      "filename": "chapter-11-1983-nebraska-furniture-mart.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-19",
+      "title": "Chapter 12 \u2014 1985: Capital Cities/ABC",
+      "order": 19,
+      "est_tokens": 5778,
+      "source": {
+        "href": "ch12.xhtml",
+        "anchor": "rch12"
+      },
+      "meta": {
+        "nav_title": "12. 1985: Capital Cities/ABC",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-12-1985-capital-citiesabc.md"
+      },
+      "filename": "chapter-12-1985-capital-citiesabc.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-20",
+      "title": "Chapter 13 \u2014 1987: Salomon Inc.\u2014Preferred Stock Investments",
+      "order": 20,
+      "est_tokens": 4636,
+      "source": {
+        "href": "ch13.xhtml",
+        "anchor": "rch13"
+      },
+      "meta": {
+        "nav_title": "13. 1987: Salomon Inc.\u2014Preferred Stock Investments",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-13-1987-salomon-inc-preferred-stock-investments.md"
+      },
+      "filename": "chapter-13-1987-salomon-inc-preferred-stock-investments.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-21",
+      "title": "Chapter 14 \u2014 1988: Coca-Cola",
+      "order": 21,
+      "est_tokens": 6536,
+      "source": {
+        "href": "ch14.xhtml",
+        "anchor": "rch14"
+      },
+      "meta": {
+        "nav_title": "14. 1988: Coca-Cola",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-14-1988-coca-cola.md"
+      },
+      "filename": "chapter-14-1988-coca-cola.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-22",
+      "title": "Chapter 15 \u2014 1989: US Air Group",
+      "order": 22,
+      "est_tokens": 5645,
+      "source": {
+        "href": "ch15.xhtml",
+        "anchor": "rch15"
+      },
+      "meta": {
+        "nav_title": "15. 1989: US Air Group",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-15-1989-us-air-group.md"
+      },
+      "filename": "chapter-15-1989-us-air-group.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-23",
+      "title": "Chapter 16 \u2014 1990: Wells Fargo",
+      "order": 23,
+      "est_tokens": 5466,
+      "source": {
+        "href": "ch16.xhtml",
+        "anchor": "rch16"
+      },
+      "meta": {
+        "nav_title": "16. 1990: Wells Fargo",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-16-1990-wells-fargo.md"
+      },
+      "filename": "chapter-16-1990-wells-fargo.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-24",
+      "title": "Chapter 17 \u2014 1998: General Re",
+      "order": 24,
+      "est_tokens": 6544,
+      "source": {
+        "href": "ch17.xhtml",
+        "anchor": "rch17"
+      },
+      "meta": {
+        "nav_title": "17. 1998: General Re",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-17-1998-general-re.md"
+      },
+      "filename": "chapter-17-1998-general-re.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-25",
+      "title": "Chapter 18 \u2014 1999: MidAmerican Energy Holdings Company",
+      "order": 25,
+      "est_tokens": 5952,
+      "source": {
+        "href": "ch18.xhtml",
+        "anchor": "rch18"
+      },
+      "meta": {
+        "nav_title": "18. 1999: MidAmerican Energy Holdings Company",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-18-1999-midamerican-energy-holdings-company.md"
+      },
+      "filename": "chapter-18-1999-midamerican-energy-holdings-company.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-26",
+      "title": "Chapter 19 \u2014 2007\u20132009: Burlington Northern",
+      "order": 26,
+      "est_tokens": 9017,
+      "source": {
+        "href": "ch19.xhtml",
+        "anchor": "rch19"
+      },
+      "meta": {
+        "nav_title": "19. 2007\u20132009: Burlington Northern",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-19-2007-2009-burlington-northern.md"
+      },
+      "filename": "chapter-19-2007-2009-burlington-northern.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-27",
+      "title": "Chapter 20 \u2014 2011: IBM",
+      "order": 27,
+      "est_tokens": 7446,
+      "source": {
+        "href": "ch20.xhtml",
+        "anchor": "rch20"
+      },
+      "meta": {
+        "nav_title": "20. 2011: IBM",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-20-2011-ibm.md"
+      },
+      "filename": "chapter-20-2011-ibm.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-28",
+      "title": "Chapter 21 \u2014 Evolution of Buffett\u2019s Investment Strategy",
+      "order": 28,
+      "est_tokens": 2703,
+      "source": {
+        "href": "ch21.xhtml",
+        "anchor": "rch21"
+      },
+      "meta": {
+        "nav_title": "21. Evolution of Buffett\u2019s Investment Strategy",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-21-evolution-of-buffetts-investment-strategy.md"
+      },
+      "filename": "chapter-21-evolution-of-buffetts-investment-strategy.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-29",
+      "title": "Chapter 22 \u2014 What We Can Learn from Buffett",
+      "order": 29,
+      "est_tokens": 4016,
+      "source": {
+        "href": "ch22.xhtml",
+        "anchor": "rch22"
+      },
+      "meta": {
+        "nav_title": "22. What We Can Learn from Buffett",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-22-what-we-can-learn-from-buffett.md"
+      },
+      "filename": "chapter-22-what-we-can-learn-from-buffett.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-30",
+      "title": "Appendix A",
+      "order": 30,
+      "est_tokens": 377,
+      "source": {
+        "href": "appendixa.xhtml",
+        "anchor": "rappa"
+      },
+      "meta": {
+        "nav_title": "Appendix A",
+        "enriched_from": "start-heading",
+        "kind": "appendix",
+        "filename": "appendix-a.md"
+      },
+      "filename": "appendix-a.md",
+      "kind": "appendix"
+    },
+    {
+      "id": "chapter-31",
+      "title": "Appendix B",
+      "order": 31,
+      "est_tokens": 1094,
+      "source": {
+        "href": "appendixb.xhtml",
+        "anchor": "rappb"
+      },
+      "meta": {
+        "nav_title": "Appendix B",
+        "enriched_from": "start-heading",
+        "kind": "appendix",
+        "filename": "appendix-b.md"
+      },
+      "filename": "appendix-b.md",
+      "kind": "appendix"
+    },
+    {
+      "id": "chapter-32",
+      "title": "Notes",
+      "order": 32,
+      "est_tokens": 4891,
+      "source": {
+        "href": "notes.xhtml",
+        "anchor": "rnt"
+      },
+      "meta": {
+        "nav_title": "Notes",
+        "enriched_from": "start-heading",
+        "kind": "notes",
+        "filename": "notes.md"
+      },
+      "filename": "notes.md",
+      "kind": "notes"
+    },
+    {
+      "id": "chapter-33",
+      "title": "Selected Bibliography",
+      "order": 33,
+      "est_tokens": 263,
+      "source": {
+        "href": "bib.xhtml",
+        "anchor": "rbib"
+      },
+      "meta": {
+        "nav_title": "Selected Bibliography",
+        "enriched_from": "start-heading",
+        "kind": "bibliography",
+        "filename": "selected-bibliography.md"
+      },
+      "filename": "selected-bibliography.md",
+      "kind": "bibliography"
+    },
+    {
+      "id": "chapter-34",
+      "title": "Index",
+      "order": 34,
+      "est_tokens": 13011,
+      "source": {
+        "href": "index.xhtml",
+        "anchor": "rind"
+      },
+      "meta": {
+        "nav_title": "Index",
+        "enriched_from": "start-heading",
+        "kind": "index",
+        "filename": "index.md"
+      },
+      "filename": "index.md",
+      "kind": "index"
+    }
+  ]
+}

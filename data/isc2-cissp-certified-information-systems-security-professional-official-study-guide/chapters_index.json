@@ -1,0 +1,5140 @@
+{
+  "book": {
+    "id": "6647278",
+    "title": "(ISC)2 CISSP Certified Information Systems Security Professional Official Study Guide",
+    "author": "Chapple, Mike;Stewart, James Michael;Gibson, Darril;",
+    "source_format": "epub"
+  },
+  "chapters": [
+    {
+      "id": "chapter-01",
+      "title": "Cover",
+      "order": 1,
+      "est_tokens": 11745,
+      "source": {
+        "href": "cover.xhtml",
+        "anchor": null
+      },
+      "meta": {
+        "nav_title": "Cover",
+        "enriched_from": "start-heading",
+        "kind": "cover",
+        "filename": "cover.md"
+      },
+      "filename": "cover.md",
+      "kind": "cover"
+    },
+    {
+      "id": "chapter-02",
+      "title": "Title Page",
+      "order": 2,
+      "est_tokens": 35,
+      "source": {
+        "href": "f01.xhtml",
+        "anchor": null
+      },
+      "meta": {
+        "nav_title": "Title Page",
+        "enriched_from": "start-heading",
+        "kind": "title-page",
+        "filename": "title-page.md"
+      },
+      "filename": "title-page.md",
+      "kind": "title-page"
+    },
+    {
+      "id": "chapter-03",
+      "title": "Copyright",
+      "order": 3,
+      "est_tokens": 636,
+      "source": {
+        "href": "f02.xhtml",
+        "anchor": null
+      },
+      "meta": {
+        "nav_title": "Copyright",
+        "enriched_from": "start-heading",
+        "kind": "copyright",
+        "filename": "copyright.md"
+      },
+      "filename": "copyright.md",
+      "kind": "copyright"
+    },
+    {
+      "id": "chapter-04",
+      "title": "Dedication",
+      "order": 4,
+      "est_tokens": 181,
+      "source": {
+        "href": "f03.xhtml",
+        "anchor": null
+      },
+      "meta": {
+        "nav_title": "Dedication",
+        "enriched_from": "start-heading",
+        "kind": "dedication",
+        "filename": "dedication.md"
+      },
+      "filename": "dedication.md",
+      "kind": "dedication"
+    },
+    {
+      "id": "chapter-05",
+      "title": "Acknowledgments",
+      "order": 5,
+      "est_tokens": 578,
+      "source": {
+        "href": "f04.xhtml",
+        "anchor": null
+      },
+      "meta": {
+        "nav_title": "Acknowledgments",
+        "enriched_from": "start-heading",
+        "kind": "acknowledgments",
+        "filename": "acknowledgments.md"
+      },
+      "filename": "acknowledgments.md",
+      "kind": "acknowledgments"
+    },
+    {
+      "id": "chapter-06",
+      "title": "About the Authors",
+      "order": 6,
+      "est_tokens": 485,
+      "source": {
+        "href": "f05.xhtml",
+        "anchor": null
+      },
+      "meta": {
+        "nav_title": "About the Authors",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "about-the-authors.md"
+      },
+      "filename": "about-the-authors.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-07",
+      "title": "About the Technical Editors",
+      "order": 7,
+      "est_tokens": 361,
+      "source": {
+        "href": "f06.xhtml",
+        "anchor": null
+      },
+      "meta": {
+        "nav_title": "About the Technical Editors",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "about-the-technical-editors.md"
+      },
+      "filename": "about-the-technical-editors.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-08",
+      "title": "Foreword",
+      "order": 8,
+      "est_tokens": 464,
+      "source": {
+        "href": "f07.xhtml",
+        "anchor": null
+      },
+      "meta": {
+        "nav_title": "Foreword",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "foreword.md"
+      },
+      "filename": "foreword.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-09",
+      "title": "Overview of the CISSP Exam",
+      "order": 9,
+      "est_tokens": 2852,
+      "source": {
+        "href": "f08.xhtml",
+        "anchor": "head-2-382"
+      },
+      "meta": {
+        "nav_title": "Overview of the CISSP Exam",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "overview-of-the-cissp-exam.md"
+      },
+      "filename": "overview-of-the-cissp-exam.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-10",
+      "title": "Chapter Each chapter includes common elements to help you focus your studies and test your knowledge. Here are descriptions of those elements: \u2014 The Elements of This Study Guide",
+      "order": 10,
+      "est_tokens": 374,
+      "source": {
+        "href": "f08.xhtml",
+        "anchor": "head-2-383"
+      },
+      "meta": {
+        "nav_title": "The Elements of This Study Guide",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-each-chapter-includes-common-elements-to-help-you-focus-your-studies-and-test-your-knowledge-here-are-descriptions-of-those-elements-the-elements-of-thi.md"
+      },
+      "filename": "chapter-each-chapter-includes-common-elements-to-help-you-focus-your-studies-and-test-your-knowledge-here-are-descriptions-of-those-elements-the-elements-of-thi.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-11",
+      "title": "Interactive Online Learning Environment and TestBank",
+      "order": 11,
+      "est_tokens": 417,
+      "source": {
+        "href": "f08.xhtml",
+        "anchor": "head-2-384"
+      },
+      "meta": {
+        "nav_title": "Interactive Online Learning Environment and TestBank",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "interactive-online-learning-environment-and-testbank.md"
+      },
+      "filename": "interactive-online-learning-environment-and-testbank.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-12",
+      "title": "Study Guide Exam Objectives",
+      "order": 12,
+      "est_tokens": 114,
+      "source": {
+        "href": "f08.xhtml",
+        "anchor": "head-2-385"
+      },
+      "meta": {
+        "nav_title": "Study Guide Exam Objectives",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "study-guide-exam-objectives.md"
+      },
+      "filename": "study-guide-exam-objectives.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-13",
+      "title": "Objective Map",
+      "order": 13,
+      "est_tokens": 2114,
+      "source": {
+        "href": "f08.xhtml",
+        "anchor": "head-2-386"
+      },
+      "meta": {
+        "nav_title": "Objective Map",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "objective-map.md"
+      },
+      "filename": "objective-map.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-14",
+      "title": "Reader Support for This Book",
+      "order": 14,
+      "est_tokens": 109,
+      "source": {
+        "href": "f08.xhtml",
+        "anchor": "head-2-387"
+      },
+      "meta": {
+        "nav_title": "Reader Support for This Book",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "reader-support-for-this-book.md"
+      },
+      "filename": "reader-support-for-this-book.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-15",
+      "title": "Assessment Test",
+      "order": 15,
+      "est_tokens": 3951,
+      "source": {
+        "href": "f08.xhtml",
+        "anchor": "head-2-388"
+      },
+      "meta": {
+        "nav_title": "Assessment Test",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "assessment-test.md"
+      },
+      "filename": "assessment-test.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-16",
+      "title": "Answers to Assessment Test",
+      "order": 16,
+      "est_tokens": 4462,
+      "source": {
+        "href": "f08.xhtml",
+        "anchor": "head-2-389"
+      },
+      "meta": {
+        "nav_title": "Answers to Assessment Test",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "answers-to-assessment-test.md"
+      },
+      "filename": "answers-to-assessment-test.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-17",
+      "title": "Security 101",
+      "order": 17,
+      "est_tokens": 616,
+      "source": {
+        "href": "c01.xhtml",
+        "anchor": "head-2-45"
+      },
+      "meta": {
+        "nav_title": "Security 101",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "security-101.md"
+      },
+      "filename": "security-101.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-18",
+      "title": "Understand and Apply Security Concepts",
+      "order": 18,
+      "est_tokens": 4608,
+      "source": {
+        "href": "c01.xhtml",
+        "anchor": "head-2-46"
+      },
+      "meta": {
+        "nav_title": "Understand and Apply Security Concepts",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "understand-and-apply-security-concepts.md"
+      },
+      "filename": "understand-and-apply-security-concepts.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-19",
+      "title": "Security Boundaries",
+      "order": 19,
+      "est_tokens": 495,
+      "source": {
+        "href": "c01.xhtml",
+        "anchor": "head-2-47"
+      },
+      "meta": {
+        "nav_title": "Security Boundaries",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "security-boundaries.md"
+      },
+      "filename": "security-boundaries.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-20",
+      "title": "Evaluate and Apply Security Governance Principles",
+      "order": 20,
+      "est_tokens": 1220,
+      "source": {
+        "href": "c01.xhtml",
+        "anchor": "head-2-48"
+      },
+      "meta": {
+        "nav_title": "Evaluate and Apply Security Governance Principles",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "evaluate-and-apply-security-governance-principles.md"
+      },
+      "filename": "evaluate-and-apply-security-governance-principles.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-21",
+      "title": "Manage the Security Function",
+      "order": 21,
+      "est_tokens": 4005,
+      "source": {
+        "href": "c01.xhtml",
+        "anchor": "head-2-49"
+      },
+      "meta": {
+        "nav_title": "Manage the Security Function",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "manage-the-security-function.md"
+      },
+      "filename": "manage-the-security-function.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-22",
+      "title": "Security Policy, Standards, Procedures, and Guidelines",
+      "order": 22,
+      "est_tokens": 1022,
+      "source": {
+        "href": "c01.xhtml",
+        "anchor": "head-2-50"
+      },
+      "meta": {
+        "nav_title": "Security Policy, Standards, Procedures, and Guidelines",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "security-policy-standards-procedures-and-guidelines.md"
+      },
+      "filename": "security-policy-standards-procedures-and-guidelines.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-23",
+      "title": "Threat Modeling",
+      "order": 23,
+      "est_tokens": 2446,
+      "source": {
+        "href": "c01.xhtml",
+        "anchor": "head-2-52"
+      },
+      "meta": {
+        "nav_title": "Threat Modeling",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "threat-modeling.md"
+      },
+      "filename": "threat-modeling.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-24",
+      "title": "Supply Chain Risk Management",
+      "order": 24,
+      "est_tokens": 885,
+      "source": {
+        "href": "c01.xhtml",
+        "anchor": "head-2-54"
+      },
+      "meta": {
+        "nav_title": "Supply Chain Risk Management",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "supply-chain-risk-management.md"
+      },
+      "filename": "supply-chain-risk-management.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-25",
+      "title": "Summary",
+      "order": 25,
+      "est_tokens": 392,
+      "source": {
+        "href": "c01.xhtml",
+        "anchor": "head-2-55"
+      },
+      "meta": {
+        "nav_title": "Summary",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "summary.md"
+      },
+      "filename": "summary.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-26",
+      "title": "Exam Essentials",
+      "order": 26,
+      "est_tokens": 1256,
+      "source": {
+        "href": "c01.xhtml",
+        "anchor": "head-2-56"
+      },
+      "meta": {
+        "nav_title": "Exam Essentials",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "exam-essentials.md"
+      },
+      "filename": "exam-essentials.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-27",
+      "title": "Written Lab",
+      "order": 27,
+      "est_tokens": 67,
+      "source": {
+        "href": "c01.xhtml",
+        "anchor": "head-2-57"
+      },
+      "meta": {
+        "nav_title": "Written Lab",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "written-lab.md"
+      },
+      "filename": "written-lab.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-28",
+      "title": "Review Questions",
+      "order": 28,
+      "est_tokens": 2835,
+      "source": {
+        "href": "c01.xhtml",
+        "anchor": "head-2-58"
+      },
+      "meta": {
+        "nav_title": "Review Questions",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "review-questions.md"
+      },
+      "filename": "review-questions.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-29",
+      "title": "Personnel Security Policies and Procedures",
+      "order": 29,
+      "est_tokens": 5197,
+      "source": {
+        "href": "c02.xhtml",
+        "anchor": "head-2-59"
+      },
+      "meta": {
+        "nav_title": "Personnel Security Policies and Procedures",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "personnel-security-policies-and-procedures.md"
+      },
+      "filename": "personnel-security-policies-and-procedures.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-30",
+      "title": "Understand and Apply Risk Management Concepts",
+      "order": 30,
+      "est_tokens": 13685,
+      "source": {
+        "href": "c02.xhtml",
+        "anchor": "head-2-61"
+      },
+      "meta": {
+        "nav_title": "Understand and Apply Risk Management Concepts",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "understand-and-apply-risk-management-concepts.md"
+      },
+      "filename": "understand-and-apply-risk-management-concepts.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-31",
+      "title": "Social Engineering",
+      "order": 31,
+      "est_tokens": 8395,
+      "source": {
+        "href": "c02.xhtml",
+        "anchor": "head-2-65"
+      },
+      "meta": {
+        "nav_title": "Social Engineering",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "social-engineering.md"
+      },
+      "filename": "social-engineering.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-32",
+      "title": "Establish and Maintain a Security Awareness, Education, and Training Program",
+      "order": 32,
+      "est_tokens": 1964,
+      "source": {
+        "href": "c02.xhtml",
+        "anchor": "head-2-67"
+      },
+      "meta": {
+        "nav_title": "Establish and Maintain a Security Awareness, Education, and Training Program",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "establish-and-maintain-a-security-awareness-education-and-training-program.md"
+      },
+      "filename": "establish-and-maintain-a-security-awareness-education-and-training-program.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-33",
+      "title": "Summary",
+      "order": 33,
+      "est_tokens": 781,
+      "source": {
+        "href": "c02.xhtml",
+        "anchor": "head-2-68"
+      },
+      "meta": {
+        "nav_title": "Summary",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "summary-2.md"
+      },
+      "filename": "summary-2.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-34",
+      "title": "Exam Essentials",
+      "order": 34,
+      "est_tokens": 2686,
+      "source": {
+        "href": "c02.xhtml",
+        "anchor": "head-2-69"
+      },
+      "meta": {
+        "nav_title": "Exam Essentials",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "exam-essentials-2.md"
+      },
+      "filename": "exam-essentials-2.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-35",
+      "title": "Written Lab",
+      "order": 35,
+      "est_tokens": 93,
+      "source": {
+        "href": "c02.xhtml",
+        "anchor": "head-2-70"
+      },
+      "meta": {
+        "nav_title": "Written Lab",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "written-lab-2.md"
+      },
+      "filename": "written-lab-2.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-36",
+      "title": "Review Questions",
+      "order": 36,
+      "est_tokens": 2807,
+      "source": {
+        "href": "c02.xhtml",
+        "anchor": "head-2-71"
+      },
+      "meta": {
+        "nav_title": "Review Questions",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "review-questions-2.md"
+      },
+      "filename": "review-questions-2.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-37",
+      "title": "Planning for Business Continuity",
+      "order": 37,
+      "est_tokens": 526,
+      "source": {
+        "href": "c03.xhtml",
+        "anchor": "head-2-72"
+      },
+      "meta": {
+        "nav_title": "Planning for Business Continuity",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "planning-for-business-continuity.md"
+      },
+      "filename": "planning-for-business-continuity.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-38",
+      "title": "Project Scope and Planning",
+      "order": 38,
+      "est_tokens": 2989,
+      "source": {
+        "href": "c03.xhtml",
+        "anchor": "head-2-74"
+      },
+      "meta": {
+        "nav_title": "Project Scope and Planning",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "project-scope-and-planning.md"
+      },
+      "filename": "project-scope-and-planning.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-39",
+      "title": "Business Impact Analysis",
+      "order": 39,
+      "est_tokens": 3582,
+      "source": {
+        "href": "c03.xhtml",
+        "anchor": "head-2-78"
+      },
+      "meta": {
+        "nav_title": "Business Impact Analysis",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "business-impact-analysis.md"
+      },
+      "filename": "business-impact-analysis.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-40",
+      "title": "Continuity Planning",
+      "order": 40,
+      "est_tokens": 1289,
+      "source": {
+        "href": "c03.xhtml",
+        "anchor": "head-2-80"
+      },
+      "meta": {
+        "nav_title": "Continuity Planning",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "continuity-planning.md"
+      },
+      "filename": "continuity-planning.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-41",
+      "title": "Plan Approval and Implementation",
+      "order": 41,
+      "est_tokens": 2386,
+      "source": {
+        "href": "c03.xhtml",
+        "anchor": "head-2-81"
+      },
+      "meta": {
+        "nav_title": "Plan Approval and Implementation",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "plan-approval-and-implementation.md"
+      },
+      "filename": "plan-approval-and-implementation.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-42",
+      "title": "Summary",
+      "order": 42,
+      "est_tokens": 279,
+      "source": {
+        "href": "c03.xhtml",
+        "anchor": "head-2-82"
+      },
+      "meta": {
+        "nav_title": "Summary",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "summary-3.md"
+      },
+      "filename": "summary-3.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-43",
+      "title": "Exam Essentials",
+      "order": 43,
+      "est_tokens": 454,
+      "source": {
+        "href": "c03.xhtml",
+        "anchor": "head-2-83"
+      },
+      "meta": {
+        "nav_title": "Exam Essentials",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "exam-essentials-3.md"
+      },
+      "filename": "exam-essentials-3.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-44",
+      "title": "Written Lab",
+      "order": 44,
+      "est_tokens": 73,
+      "source": {
+        "href": "c03.xhtml",
+        "anchor": "head-2-84"
+      },
+      "meta": {
+        "nav_title": "Written Lab",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "written-lab-3.md"
+      },
+      "filename": "written-lab-3.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-45",
+      "title": "Review Questions",
+      "order": 45,
+      "est_tokens": 1684,
+      "source": {
+        "href": "c03.xhtml",
+        "anchor": "head-2-85"
+      },
+      "meta": {
+        "nav_title": "Review Questions",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "review-questions-3.md"
+      },
+      "filename": "review-questions-3.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-46",
+      "title": "Categories of Laws",
+      "order": 46,
+      "est_tokens": 1639,
+      "source": {
+        "href": "c04.xhtml",
+        "anchor": "head-2-86"
+      },
+      "meta": {
+        "nav_title": "Categories of Laws",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "categories-of-laws.md"
+      },
+      "filename": "categories-of-laws.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-47",
+      "title": "Laws",
+      "order": 47,
+      "est_tokens": 11602,
+      "source": {
+        "href": "c04.xhtml",
+        "anchor": "head-2-88"
+      },
+      "meta": {
+        "nav_title": "Laws",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "laws.md"
+      },
+      "filename": "laws.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-48",
+      "title": "State Privacy Laws",
+      "order": 48,
+      "est_tokens": 253,
+      "source": {
+        "href": "c04.xhtml",
+        "anchor": "head-2-94"
+      },
+      "meta": {
+        "nav_title": "State Privacy Laws",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "state-privacy-laws.md"
+      },
+      "filename": "state-privacy-laws.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-49",
+      "title": "Compliance",
+      "order": 49,
+      "est_tokens": 614,
+      "source": {
+        "href": "c04.xhtml",
+        "anchor": "head-2-95"
+      },
+      "meta": {
+        "nav_title": "Compliance",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "compliance.md"
+      },
+      "filename": "compliance.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-50",
+      "title": "Contracting and Procurement",
+      "order": 50,
+      "est_tokens": 335,
+      "source": {
+        "href": "c04.xhtml",
+        "anchor": "head-2-97"
+      },
+      "meta": {
+        "nav_title": "Contracting and Procurement",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "contracting-and-procurement.md"
+      },
+      "filename": "contracting-and-procurement.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-51",
+      "title": "Summary",
+      "order": 51,
+      "est_tokens": 308,
+      "source": {
+        "href": "c04.xhtml",
+        "anchor": "head-2-98"
+      },
+      "meta": {
+        "nav_title": "Summary",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "summary-4.md"
+      },
+      "filename": "summary-4.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-52",
+      "title": "Exam Essentials",
+      "order": 52,
+      "est_tokens": 796,
+      "source": {
+        "href": "c04.xhtml",
+        "anchor": "head-2-99"
+      },
+      "meta": {
+        "nav_title": "Exam Essentials",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "exam-essentials-4.md"
+      },
+      "filename": "exam-essentials-4.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-53",
+      "title": "Written Lab",
+      "order": 53,
+      "est_tokens": 66,
+      "source": {
+        "href": "c04.xhtml",
+        "anchor": "head-2-100"
+      },
+      "meta": {
+        "nav_title": "Written Lab",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "written-lab-4.md"
+      },
+      "filename": "written-lab-4.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-54",
+      "title": "Review Questions",
+      "order": 54,
+      "est_tokens": 1760,
+      "source": {
+        "href": "c04.xhtml",
+        "anchor": "head-2-101"
+      },
+      "meta": {
+        "nav_title": "Review Questions",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "review-questions-4.md"
+      },
+      "filename": "review-questions-4.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-55",
+      "title": "Identifying and Classifying Information and Assets",
+      "order": 55,
+      "est_tokens": 4004,
+      "source": {
+        "href": "c05.xhtml",
+        "anchor": "head-2-102"
+      },
+      "meta": {
+        "nav_title": "Identifying and Classifying Information and Assets",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "identifying-and-classifying-information-and-assets.md"
+      },
+      "filename": "identifying-and-classifying-information-and-assets.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-56",
+      "title": "Establishing Information and Asset Handling Requirements",
+      "order": 56,
+      "est_tokens": 5764,
+      "source": {
+        "href": "c05.xhtml",
+        "anchor": "head-2-103"
+      },
+      "meta": {
+        "nav_title": "Establishing Information and Asset Handling Requirements",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "establishing-information-and-asset-handling-requirements.md"
+      },
+      "filename": "establishing-information-and-asset-handling-requirements.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-57",
+      "title": "Data Protection Methods",
+      "order": 57,
+      "est_tokens": 2687,
+      "source": {
+        "href": "c05.xhtml",
+        "anchor": "head-2-105"
+      },
+      "meta": {
+        "nav_title": "Data Protection Methods",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "data-protection-methods.md"
+      },
+      "filename": "data-protection-methods.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-58",
+      "title": "Understanding Data Roles",
+      "order": 58,
+      "est_tokens": 2149,
+      "source": {
+        "href": "c05.xhtml",
+        "anchor": "head-2-106"
+      },
+      "meta": {
+        "nav_title": "Understanding Data Roles",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "understanding-data-roles.md"
+      },
+      "filename": "understanding-data-roles.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-59",
+      "title": "Using Security Baselines",
+      "order": 59,
+      "est_tokens": 1423,
+      "source": {
+        "href": "c05.xhtml",
+        "anchor": "head-2-107"
+      },
+      "meta": {
+        "nav_title": "Using Security Baselines",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "using-security-baselines.md"
+      },
+      "filename": "using-security-baselines.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-60",
+      "title": "Summary",
+      "order": 60,
+      "est_tokens": 385,
+      "source": {
+        "href": "c05.xhtml",
+        "anchor": "head-2-108"
+      },
+      "meta": {
+        "nav_title": "Summary",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "summary-5.md"
+      },
+      "filename": "summary-5.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-61",
+      "title": "Exam Essentials",
+      "order": 61,
+      "est_tokens": 1068,
+      "source": {
+        "href": "c05.xhtml",
+        "anchor": "head-2-109"
+      },
+      "meta": {
+        "nav_title": "Exam Essentials",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "exam-essentials-5.md"
+      },
+      "filename": "exam-essentials-5.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-62",
+      "title": "Written Lab",
+      "order": 62,
+      "est_tokens": 45,
+      "source": {
+        "href": "c05.xhtml",
+        "anchor": "head-2-110"
+      },
+      "meta": {
+        "nav_title": "Written Lab",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "written-lab-5.md"
+      },
+      "filename": "written-lab-5.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-63",
+      "title": "Review Questions",
+      "order": 63,
+      "est_tokens": 1741,
+      "source": {
+        "href": "c05.xhtml",
+        "anchor": "head-2-111"
+      },
+      "meta": {
+        "nav_title": "Review Questions",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "review-questions-5.md"
+      },
+      "filename": "review-questions-5.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-64",
+      "title": "Cryptographic Foundations",
+      "order": 64,
+      "est_tokens": 10452,
+      "source": {
+        "href": "c06.xhtml",
+        "anchor": "head-2-112"
+      },
+      "meta": {
+        "nav_title": "Cryptographic Foundations",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "cryptographic-foundations.md"
+      },
+      "filename": "cryptographic-foundations.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-65",
+      "title": "Modern Cryptography",
+      "order": 65,
+      "est_tokens": 2906,
+      "source": {
+        "href": "c06.xhtml",
+        "anchor": "head-2-114"
+      },
+      "meta": {
+        "nav_title": "Modern Cryptography",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "modern-cryptography.md"
+      },
+      "filename": "modern-cryptography.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-66",
+      "title": "Symmetric Cryptography",
+      "order": 66,
+      "est_tokens": 4986,
+      "source": {
+        "href": "c06.xhtml",
+        "anchor": "head-2-116"
+      },
+      "meta": {
+        "nav_title": "Symmetric Cryptography",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "symmetric-cryptography.md"
+      },
+      "filename": "symmetric-cryptography.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-67",
+      "title": "Cryptographic Lifecycle",
+      "order": 67,
+      "est_tokens": 310,
+      "source": {
+        "href": "c06.xhtml",
+        "anchor": "head-2-118"
+      },
+      "meta": {
+        "nav_title": "Cryptographic Lifecycle",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "cryptographic-lifecycle.md"
+      },
+      "filename": "cryptographic-lifecycle.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-68",
+      "title": "Summary",
+      "order": 68,
+      "est_tokens": 230,
+      "source": {
+        "href": "c06.xhtml",
+        "anchor": "head-2-119"
+      },
+      "meta": {
+        "nav_title": "Summary",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "summary-6.md"
+      },
+      "filename": "summary-6.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-69",
+      "title": "Exam Essentials",
+      "order": 69,
+      "est_tokens": 913,
+      "source": {
+        "href": "c06.xhtml",
+        "anchor": "head-2-120"
+      },
+      "meta": {
+        "nav_title": "Exam Essentials",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "exam-essentials-6.md"
+      },
+      "filename": "exam-essentials-6.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-70",
+      "title": "Written Lab",
+      "order": 70,
+      "est_tokens": 93,
+      "source": {
+        "href": "c06.xhtml",
+        "anchor": "head-2-121"
+      },
+      "meta": {
+        "nav_title": "Written Lab",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "written-lab-6.md"
+      },
+      "filename": "written-lab-6.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-71",
+      "title": "Review Questions",
+      "order": 71,
+      "est_tokens": 1502,
+      "source": {
+        "href": "c06.xhtml",
+        "anchor": "head-2-122"
+      },
+      "meta": {
+        "nav_title": "Review Questions",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "review-questions-6.md"
+      },
+      "filename": "review-questions-6.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-72",
+      "title": "Asymmetric Cryptography",
+      "order": 72,
+      "est_tokens": 3205,
+      "source": {
+        "href": "c07.xhtml",
+        "anchor": "head-2-123"
+      },
+      "meta": {
+        "nav_title": "Asymmetric Cryptography",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "asymmetric-cryptography.md"
+      },
+      "filename": "asymmetric-cryptography.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-73",
+      "title": "Hash Functions",
+      "order": 73,
+      "est_tokens": 1873,
+      "source": {
+        "href": "c07.xhtml",
+        "anchor": "head-2-127"
+      },
+      "meta": {
+        "nav_title": "Hash Functions",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "hash-functions.md"
+      },
+      "filename": "hash-functions.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-74",
+      "title": "Digital Signatures",
+      "order": 74,
+      "est_tokens": 1298,
+      "source": {
+        "href": "c07.xhtml",
+        "anchor": "head-2-128"
+      },
+      "meta": {
+        "nav_title": "Digital Signatures",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "digital-signatures.md"
+      },
+      "filename": "digital-signatures.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-75",
+      "title": "Public Key Infrastructure",
+      "order": 75,
+      "est_tokens": 3331,
+      "source": {
+        "href": "c07.xhtml",
+        "anchor": "head-2-130"
+      },
+      "meta": {
+        "nav_title": "Public Key Infrastructure",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "public-key-infrastructure.md"
+      },
+      "filename": "public-key-infrastructure.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-76",
+      "title": "Asymmetric Key Management",
+      "order": 76,
+      "est_tokens": 556,
+      "source": {
+        "href": "c07.xhtml",
+        "anchor": "head-2-131"
+      },
+      "meta": {
+        "nav_title": "Asymmetric Key Management",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "asymmetric-key-management.md"
+      },
+      "filename": "asymmetric-key-management.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-77",
+      "title": "Chapter Transport Layer Security (TLS) is the most well-known example of hybrid cryptography, and we discuss that approach later in this chapter. \u2014 Hybrid Cryptography",
+      "order": 77,
+      "est_tokens": 276,
+      "source": {
+        "href": "c07.xhtml",
+        "anchor": "head-2-132"
+      },
+      "meta": {
+        "nav_title": "Hybrid Cryptography",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-transport-layer-security-tls-is-the-most-well-known-example-of-hybrid-cryptography-and-we-discuss-that-approach-later-in-this-chapter-hybrid-cryptograph.md"
+      },
+      "filename": "chapter-transport-layer-security-tls-is-the-most-well-known-example-of-hybrid-cryptography-and-we-discuss-that-approach-later-in-this-chapter-hybrid-cryptograph.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-78",
+      "title": "Applied Cryptography",
+      "order": 78,
+      "est_tokens": 7997,
+      "source": {
+        "href": "c07.xhtml",
+        "anchor": "head-2-133"
+      },
+      "meta": {
+        "nav_title": "Applied Cryptography",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "applied-cryptography.md"
+      },
+      "filename": "applied-cryptography.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-79",
+      "title": "Cryptographic Attacks",
+      "order": 79,
+      "est_tokens": 2229,
+      "source": {
+        "href": "c07.xhtml",
+        "anchor": "head-2-135"
+      },
+      "meta": {
+        "nav_title": "Cryptographic Attacks",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "cryptographic-attacks.md"
+      },
+      "filename": "cryptographic-attacks.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-80",
+      "title": "Summary",
+      "order": 80,
+      "est_tokens": 334,
+      "source": {
+        "href": "c07.xhtml",
+        "anchor": "head-2-138"
+      },
+      "meta": {
+        "nav_title": "Summary",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "summary-7.md"
+      },
+      "filename": "summary-7.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-81",
+      "title": "Exam Essentials",
+      "order": 81,
+      "est_tokens": 934,
+      "source": {
+        "href": "c07.xhtml",
+        "anchor": "head-2-139"
+      },
+      "meta": {
+        "nav_title": "Exam Essentials",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "exam-essentials-7.md"
+      },
+      "filename": "exam-essentials-7.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-82",
+      "title": "Written Lab",
+      "order": 82,
+      "est_tokens": 81,
+      "source": {
+        "href": "c07.xhtml",
+        "anchor": "head-2-140"
+      },
+      "meta": {
+        "nav_title": "Written Lab",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "written-lab-7.md"
+      },
+      "filename": "written-lab-7.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-83",
+      "title": "Review Questions",
+      "order": 83,
+      "est_tokens": 1508,
+      "source": {
+        "href": "c07.xhtml",
+        "anchor": "head-2-141"
+      },
+      "meta": {
+        "nav_title": "Review Questions",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "review-questions-7.md"
+      },
+      "filename": "review-questions-7.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-84",
+      "title": "Secure Design Principles",
+      "order": 84,
+      "est_tokens": 5527,
+      "source": {
+        "href": "c08.xhtml",
+        "anchor": "head-2-142"
+      },
+      "meta": {
+        "nav_title": "Secure Design Principles",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "secure-design-principles.md"
+      },
+      "filename": "secure-design-principles.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-85",
+      "title": "Techniques for Ensuring CIA",
+      "order": 85,
+      "est_tokens": 1138,
+      "source": {
+        "href": "c08.xhtml",
+        "anchor": "head-2-144"
+      },
+      "meta": {
+        "nav_title": "Techniques for Ensuring CIA",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "techniques-for-ensuring-cia.md"
+      },
+      "filename": "techniques-for-ensuring-cia.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-86",
+      "title": "Understand the Fundamental Concepts of Security Models",
+      "order": 86,
+      "est_tokens": 6421,
+      "source": {
+        "href": "c08.xhtml",
+        "anchor": "head-2-145"
+      },
+      "meta": {
+        "nav_title": "Understand the Fundamental Concepts of Security Models",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "understand-the-fundamental-concepts-of-security-models.md"
+      },
+      "filename": "understand-the-fundamental-concepts-of-security-models.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-87",
+      "title": "Select Controls Based on Systems Security Requirements",
+      "order": 87,
+      "est_tokens": 1808,
+      "source": {
+        "href": "c08.xhtml",
+        "anchor": "head-2-150"
+      },
+      "meta": {
+        "nav_title": "Select Controls Based on Systems Security Requirements",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "select-controls-based-on-systems-security-requirements.md"
+      },
+      "filename": "select-controls-based-on-systems-security-requirements.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-88",
+      "title": "Understand Security Capabilities of Information Systems",
+      "order": 88,
+      "est_tokens": 1123,
+      "source": {
+        "href": "c08.xhtml",
+        "anchor": "head-2-151"
+      },
+      "meta": {
+        "nav_title": "Understand Security Capabilities of Information Systems",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "understand-security-capabilities-of-information-systems.md"
+      },
+      "filename": "understand-security-capabilities-of-information-systems.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-89",
+      "title": "Summary",
+      "order": 89,
+      "est_tokens": 516,
+      "source": {
+        "href": "c08.xhtml",
+        "anchor": "head-2-153"
+      },
+      "meta": {
+        "nav_title": "Summary",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "summary-8.md"
+      },
+      "filename": "summary-8.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-90",
+      "title": "Exam Essentials",
+      "order": 90,
+      "est_tokens": 1143,
+      "source": {
+        "href": "c08.xhtml",
+        "anchor": "head-2-154"
+      },
+      "meta": {
+        "nav_title": "Exam Essentials",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "exam-essentials-8.md"
+      },
+      "filename": "exam-essentials-8.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-91",
+      "title": "Written Lab",
+      "order": 91,
+      "est_tokens": 86,
+      "source": {
+        "href": "c08.xhtml",
+        "anchor": "head-2-155"
+      },
+      "meta": {
+        "nav_title": "Written Lab",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "written-lab-8.md"
+      },
+      "filename": "written-lab-8.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-92",
+      "title": "Review Questions",
+      "order": 92,
+      "est_tokens": 2228,
+      "source": {
+        "href": "c08.xhtml",
+        "anchor": "head-2-156"
+      },
+      "meta": {
+        "nav_title": "Review Questions",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "review-questions-8.md"
+      },
+      "filename": "review-questions-8.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-93",
+      "title": "Shared Responsibility",
+      "order": 93,
+      "est_tokens": 526,
+      "source": {
+        "href": "c09.xhtml",
+        "anchor": "head-2-157"
+      },
+      "meta": {
+        "nav_title": "Shared Responsibility",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "shared-responsibility.md"
+      },
+      "filename": "shared-responsibility.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-94",
+      "title": "Assess and Mitigate the Vulnerabilities of Security Architectures, Designs, and Solution Elements",
+      "order": 94,
+      "est_tokens": 8620,
+      "source": {
+        "href": "c09.xhtml",
+        "anchor": "head-2-158"
+      },
+      "meta": {
+        "nav_title": "Assess and Mitigate the Vulnerabilities of Security Architectures, Designs, and Solution Elements",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "assess-and-mitigate-the-vulnerabilities-of-security-architectures-designs-and-solution-elements.md"
+      },
+      "filename": "assess-and-mitigate-the-vulnerabilities-of-security-architectures-designs-and-solution-elements.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-95",
+      "title": "Client-Based Systems",
+      "order": 95,
+      "est_tokens": 1924,
+      "source": {
+        "href": "c09.xhtml",
+        "anchor": "head-2-161"
+      },
+      "meta": {
+        "nav_title": "Client-Based Systems",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "client-based-systems.md"
+      },
+      "filename": "client-based-systems.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-96",
+      "title": "For more on server protections, see Chapter 18 . \u2014 Server-Based Systems",
+      "order": 96,
+      "est_tokens": 1667,
+      "source": {
+        "href": "c09.xhtml",
+        "anchor": "head-2-162"
+      },
+      "meta": {
+        "nav_title": "Server-Based Systems",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "for-more-on-server-protections-see-chapter-18-server-based-systems.md"
+      },
+      "filename": "for-more-on-server-protections-see-chapter-18-server-based-systems.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-97",
+      "title": "Industrial Control Systems",
+      "order": 97,
+      "est_tokens": 1038,
+      "source": {
+        "href": "c09.xhtml",
+        "anchor": "head-2-163"
+      },
+      "meta": {
+        "nav_title": "Industrial Control Systems",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "industrial-control-systems.md"
+      },
+      "filename": "industrial-control-systems.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-98",
+      "title": "Distributed Systems",
+      "order": 98,
+      "est_tokens": 1147,
+      "source": {
+        "href": "c09.xhtml",
+        "anchor": "head-2-164"
+      },
+      "meta": {
+        "nav_title": "Distributed Systems",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "distributed-systems.md"
+      },
+      "filename": "distributed-systems.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-99",
+      "title": "High-Performance Computing (HPC) Systems",
+      "order": 99,
+      "est_tokens": 712,
+      "source": {
+        "href": "c09.xhtml",
+        "anchor": "head-2-165"
+      },
+      "meta": {
+        "nav_title": "High-Performance Computing (HPC) Systems",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "high-performance-computing-hpc-systems.md"
+      },
+      "filename": "high-performance-computing-hpc-systems.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-100",
+      "title": "Internet of Things",
+      "order": 100,
+      "est_tokens": 1114,
+      "source": {
+        "href": "c09.xhtml",
+        "anchor": "head-2-166"
+      },
+      "meta": {
+        "nav_title": "Internet of Things",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "internet-of-things.md"
+      },
+      "filename": "internet-of-things.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-101",
+      "title": "Edge and Fog Computing",
+      "order": 101,
+      "est_tokens": 580,
+      "source": {
+        "href": "c09.xhtml",
+        "anchor": "head-2-167"
+      },
+      "meta": {
+        "nav_title": "Edge and Fog Computing",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "edge-and-fog-computing.md"
+      },
+      "filename": "edge-and-fog-computing.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-102",
+      "title": "Embedded Devices and Cyber-Physical Systems",
+      "order": 102,
+      "est_tokens": 3953,
+      "source": {
+        "href": "c09.xhtml",
+        "anchor": "head-2-168"
+      },
+      "meta": {
+        "nav_title": "Embedded Devices and Cyber-Physical Systems",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "embedded-devices-and-cyber-physical-systems.md"
+      },
+      "filename": "embedded-devices-and-cyber-physical-systems.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-103",
+      "title": "Specialized Devices",
+      "order": 103,
+      "est_tokens": 846,
+      "source": {
+        "href": "c09.xhtml",
+        "anchor": "head-2-170"
+      },
+      "meta": {
+        "nav_title": "Specialized Devices",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "specialized-devices.md"
+      },
+      "filename": "specialized-devices.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-104",
+      "title": "Microservices",
+      "order": 104,
+      "est_tokens": 540,
+      "source": {
+        "href": "c09.xhtml",
+        "anchor": "head-2-171"
+      },
+      "meta": {
+        "nav_title": "Microservices",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "microservices.md"
+      },
+      "filename": "microservices.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-105",
+      "title": "Infrastructure as Code",
+      "order": 105,
+      "est_tokens": 736,
+      "source": {
+        "href": "c09.xhtml",
+        "anchor": "head-2-172"
+      },
+      "meta": {
+        "nav_title": "Infrastructure as Code",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "infrastructure-as-code.md"
+      },
+      "filename": "infrastructure-as-code.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-106",
+      "title": "Virtualized Systems",
+      "order": 106,
+      "est_tokens": 4204,
+      "source": {
+        "href": "c09.xhtml",
+        "anchor": "head-2-173"
+      },
+      "meta": {
+        "nav_title": "Virtualized Systems",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "virtualized-systems.md"
+      },
+      "filename": "virtualized-systems.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-107",
+      "title": "Containerization",
+      "order": 107,
+      "est_tokens": 348,
+      "source": {
+        "href": "c09.xhtml",
+        "anchor": "head-2-176"
+      },
+      "meta": {
+        "nav_title": "Containerization",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "containerization.md"
+      },
+      "filename": "containerization.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-108",
+      "title": "Serverless Architecture",
+      "order": 108,
+      "est_tokens": 227,
+      "source": {
+        "href": "c09.xhtml",
+        "anchor": "head-2-177"
+      },
+      "meta": {
+        "nav_title": "Serverless Architecture",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "serverless-architecture.md"
+      },
+      "filename": "serverless-architecture.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-109",
+      "title": "Mobile Devices",
+      "order": 109,
+      "est_tokens": 11141,
+      "source": {
+        "href": "c09.xhtml",
+        "anchor": "head-2-178"
+      },
+      "meta": {
+        "nav_title": "Mobile Devices",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "mobile-devices.md"
+      },
+      "filename": "mobile-devices.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-110",
+      "title": "Essential Security Protection Mechanisms",
+      "order": 110,
+      "est_tokens": 910,
+      "source": {
+        "href": "c09.xhtml",
+        "anchor": "head-2-180"
+      },
+      "meta": {
+        "nav_title": "Essential Security Protection Mechanisms",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "essential-security-protection-mechanisms.md"
+      },
+      "filename": "essential-security-protection-mechanisms.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-111",
+      "title": "Common Security Architecture Flaws and Issues",
+      "order": 111,
+      "est_tokens": 2424,
+      "source": {
+        "href": "c09.xhtml",
+        "anchor": "head-2-181"
+      },
+      "meta": {
+        "nav_title": "Common Security Architecture Flaws and Issues",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "common-security-architecture-flaws-and-issues.md"
+      },
+      "filename": "common-security-architecture-flaws-and-issues.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-112",
+      "title": "Summary",
+      "order": 112,
+      "est_tokens": 386,
+      "source": {
+        "href": "c09.xhtml",
+        "anchor": "head-2-182"
+      },
+      "meta": {
+        "nav_title": "Summary",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "summary-9.md"
+      },
+      "filename": "summary-9.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-113",
+      "title": "Exam Essentials",
+      "order": 113,
+      "est_tokens": 3738,
+      "source": {
+        "href": "c09.xhtml",
+        "anchor": "head-2-183"
+      },
+      "meta": {
+        "nav_title": "Exam Essentials",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "exam-essentials-9.md"
+      },
+      "filename": "exam-essentials-9.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-114",
+      "title": "Written Lab",
+      "order": 114,
+      "est_tokens": 129,
+      "source": {
+        "href": "c09.xhtml",
+        "anchor": "head-2-184"
+      },
+      "meta": {
+        "nav_title": "Written Lab",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "written-lab-9.md"
+      },
+      "filename": "written-lab-9.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-115",
+      "title": "Review Questions",
+      "order": 115,
+      "est_tokens": 2488,
+      "source": {
+        "href": "c09.xhtml",
+        "anchor": "head-2-185"
+      },
+      "meta": {
+        "nav_title": "Review Questions",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "review-questions-9.md"
+      },
+      "filename": "review-questions-9.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-116",
+      "title": "Apply Security Principles to Site and Facility Design",
+      "order": 116,
+      "est_tokens": 2020,
+      "source": {
+        "href": "c10.xhtml",
+        "anchor": "head-2-186"
+      },
+      "meta": {
+        "nav_title": "Apply Security Principles to Site and Facility Design",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "apply-security-principles-to-site-and-facility-design.md"
+      },
+      "filename": "apply-security-principles-to-site-and-facility-design.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-117",
+      "title": "Implement Site and Facility Security Controls",
+      "order": 117,
+      "est_tokens": 12474,
+      "source": {
+        "href": "c10.xhtml",
+        "anchor": "head-2-187"
+      },
+      "meta": {
+        "nav_title": "Implement Site and Facility Security Controls",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "implement-site-and-facility-security-controls.md"
+      },
+      "filename": "implement-site-and-facility-security-controls.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-118",
+      "title": "Implement and Manage Physical Security",
+      "order": 118,
+      "est_tokens": 4116,
+      "source": {
+        "href": "c10.xhtml",
+        "anchor": "head-2-188"
+      },
+      "meta": {
+        "nav_title": "Implement and Manage Physical Security",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "implement-and-manage-physical-security.md"
+      },
+      "filename": "implement-and-manage-physical-security.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-119",
+      "title": "Summary",
+      "order": 119,
+      "est_tokens": 468,
+      "source": {
+        "href": "c10.xhtml",
+        "anchor": "head-2-189"
+      },
+      "meta": {
+        "nav_title": "Summary",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "summary-10.md"
+      },
+      "filename": "summary-10.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-120",
+      "title": "Exam Essentials",
+      "order": 120,
+      "est_tokens": 2006,
+      "source": {
+        "href": "c10.xhtml",
+        "anchor": "head-2-190"
+      },
+      "meta": {
+        "nav_title": "Exam Essentials",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "exam-essentials-10.md"
+      },
+      "filename": "exam-essentials-10.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-121",
+      "title": "Written Lab",
+      "order": 121,
+      "est_tokens": 78,
+      "source": {
+        "href": "c10.xhtml",
+        "anchor": "head-2-191"
+      },
+      "meta": {
+        "nav_title": "Written Lab",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "written-lab-10.md"
+      },
+      "filename": "written-lab-10.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-122",
+      "title": "Review Questions",
+      "order": 122,
+      "est_tokens": 2559,
+      "source": {
+        "href": "c10.xhtml",
+        "anchor": "head-2-192"
+      },
+      "meta": {
+        "nav_title": "Review Questions",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "review-questions-10.md"
+      },
+      "filename": "review-questions-10.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-123",
+      "title": "OSI Model",
+      "order": 123,
+      "est_tokens": 2966,
+      "source": {
+        "href": "c11.xhtml",
+        "anchor": "head-2-193"
+      },
+      "meta": {
+        "nav_title": "OSI Model",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "osi-model.md"
+      },
+      "filename": "osi-model.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-124",
+      "title": "TCP/IP Model",
+      "order": 124,
+      "est_tokens": 402,
+      "source": {
+        "href": "c11.xhtml",
+        "anchor": "head-2-197"
+      },
+      "meta": {
+        "nav_title": "TCP/IP Model",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "tcpip-model.md"
+      },
+      "filename": "tcpip-model.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-125",
+      "title": "Analyzing Network Traffic",
+      "order": 125,
+      "est_tokens": 423,
+      "source": {
+        "href": "c11.xhtml",
+        "anchor": "head-2-198"
+      },
+      "meta": {
+        "nav_title": "Analyzing Network Traffic",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "analyzing-network-traffic.md"
+      },
+      "filename": "analyzing-network-traffic.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-126",
+      "title": "Common Application Layer Protocols",
+      "order": 126,
+      "est_tokens": 865,
+      "source": {
+        "href": "c11.xhtml",
+        "anchor": "head-2-199"
+      },
+      "meta": {
+        "nav_title": "Common Application Layer Protocols",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "common-application-layer-protocols.md"
+      },
+      "filename": "common-application-layer-protocols.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-127",
+      "title": "Transport Layer Protocols",
+      "order": 127,
+      "est_tokens": 713,
+      "source": {
+        "href": "c11.xhtml",
+        "anchor": "head-2-201"
+      },
+      "meta": {
+        "nav_title": "Transport Layer Protocols",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "transport-layer-protocols.md"
+      },
+      "filename": "transport-layer-protocols.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-128",
+      "title": "Domain Name System",
+      "order": 128,
+      "est_tokens": 3886,
+      "source": {
+        "href": "c11.xhtml",
+        "anchor": "head-2-202"
+      },
+      "meta": {
+        "nav_title": "Domain Name System",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "domain-name-system.md"
+      },
+      "filename": "domain-name-system.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-129",
+      "title": "Internet Protocol (IP) Networking",
+      "order": 129,
+      "est_tokens": 2068,
+      "source": {
+        "href": "c11.xhtml",
+        "anchor": "head-2-204"
+      },
+      "meta": {
+        "nav_title": "Internet Protocol (IP) Networking",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "internet-protocol-ip-networking.md"
+      },
+      "filename": "internet-protocol-ip-networking.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-130",
+      "title": "ARP Concerns",
+      "order": 130,
+      "est_tokens": 735,
+      "source": {
+        "href": "c11.xhtml",
+        "anchor": "head-2-205"
+      },
+      "meta": {
+        "nav_title": "ARP Concerns",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "arp-concerns.md"
+      },
+      "filename": "arp-concerns.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-131",
+      "title": "Secure Communication Protocols",
+      "order": 131,
+      "est_tokens": 645,
+      "source": {
+        "href": "c11.xhtml",
+        "anchor": "head-2-206"
+      },
+      "meta": {
+        "nav_title": "Secure Communication Protocols",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "secure-communication-protocols.md"
+      },
+      "filename": "secure-communication-protocols.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-132",
+      "title": "Implications of Multilayer Protocols",
+      "order": 132,
+      "est_tokens": 2927,
+      "source": {
+        "href": "c11.xhtml",
+        "anchor": "head-2-207"
+      },
+      "meta": {
+        "nav_title": "Implications of Multilayer Protocols",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "implications-of-multilayer-protocols.md"
+      },
+      "filename": "implications-of-multilayer-protocols.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-133",
+      "title": "Microsegmentation",
+      "order": 133,
+      "est_tokens": 584,
+      "source": {
+        "href": "c11.xhtml",
+        "anchor": "head-2-209"
+      },
+      "meta": {
+        "nav_title": "Microsegmentation",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "microsegmentation.md"
+      },
+      "filename": "microsegmentation.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-134",
+      "title": "Wireless Networks",
+      "order": 134,
+      "est_tokens": 8199,
+      "source": {
+        "href": "c11.xhtml",
+        "anchor": "head-2-210"
+      },
+      "meta": {
+        "nav_title": "Wireless Networks",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "wireless-networks.md"
+      },
+      "filename": "wireless-networks.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-135",
+      "title": "Other Communication Protocols",
+      "order": 135,
+      "est_tokens": 684,
+      "source": {
+        "href": "c11.xhtml",
+        "anchor": "head-2-211"
+      },
+      "meta": {
+        "nav_title": "Other Communication Protocols",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "other-communication-protocols.md"
+      },
+      "filename": "other-communication-protocols.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-136",
+      "title": "Cellular Networks",
+      "order": 136,
+      "est_tokens": 498,
+      "source": {
+        "href": "c11.xhtml",
+        "anchor": "head-2-212"
+      },
+      "meta": {
+        "nav_title": "Cellular Networks",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "cellular-networks.md"
+      },
+      "filename": "cellular-networks.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-137",
+      "title": "Content Distribution Networks (CDNs)",
+      "order": 137,
+      "est_tokens": 247,
+      "source": {
+        "href": "c11.xhtml",
+        "anchor": "head-2-213"
+      },
+      "meta": {
+        "nav_title": "Content Distribution Networks (CDNs)",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "content-distribution-networks-cdns.md"
+      },
+      "filename": "content-distribution-networks-cdns.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-138",
+      "title": "Secure Network Components",
+      "order": 138,
+      "est_tokens": 13757,
+      "source": {
+        "href": "c11.xhtml",
+        "anchor": "head-2-214"
+      },
+      "meta": {
+        "nav_title": "Secure Network Components",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "secure-network-components.md"
+      },
+      "filename": "secure-network-components.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-139",
+      "title": "Summary",
+      "order": 139,
+      "est_tokens": 464,
+      "source": {
+        "href": "c11.xhtml",
+        "anchor": "head-2-218"
+      },
+      "meta": {
+        "nav_title": "Summary",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "summary-11.md"
+      },
+      "filename": "summary-11.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-140",
+      "title": "Exam Essentials",
+      "order": 140,
+      "est_tokens": 2438,
+      "source": {
+        "href": "c11.xhtml",
+        "anchor": "head-2-219"
+      },
+      "meta": {
+        "nav_title": "Exam Essentials",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "exam-essentials-11.md"
+      },
+      "filename": "exam-essentials-11.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-141",
+      "title": "Written Lab",
+      "order": 141,
+      "est_tokens": 90,
+      "source": {
+        "href": "c11.xhtml",
+        "anchor": "head-2-220"
+      },
+      "meta": {
+        "nav_title": "Written Lab",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "written-lab-11.md"
+      },
+      "filename": "written-lab-11.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-142",
+      "title": "Review Questions",
+      "order": 142,
+      "est_tokens": 2097,
+      "source": {
+        "href": "c11.xhtml",
+        "anchor": "head-2-221"
+      },
+      "meta": {
+        "nav_title": "Review Questions",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "review-questions-11.md"
+      },
+      "filename": "review-questions-11.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-143",
+      "title": "Protocol Security Mechanisms",
+      "order": 143,
+      "est_tokens": 2081,
+      "source": {
+        "href": "c12.xhtml",
+        "anchor": "head-2-222"
+      },
+      "meta": {
+        "nav_title": "Protocol Security Mechanisms",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "protocol-security-mechanisms.md"
+      },
+      "filename": "protocol-security-mechanisms.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-144",
+      "title": "Secure Voice Communications",
+      "order": 144,
+      "est_tokens": 2563,
+      "source": {
+        "href": "c12.xhtml",
+        "anchor": "head-2-224"
+      },
+      "meta": {
+        "nav_title": "Secure Voice Communications",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "secure-voice-communications.md"
+      },
+      "filename": "secure-voice-communications.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-145",
+      "title": "Remote Access Security Management",
+      "order": 145,
+      "est_tokens": 1670,
+      "source": {
+        "href": "c12.xhtml",
+        "anchor": "head-2-225"
+      },
+      "meta": {
+        "nav_title": "Remote Access Security Management",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "remote-access-security-management.md"
+      },
+      "filename": "remote-access-security-management.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-146",
+      "title": "Multimedia Collaboration",
+      "order": 146,
+      "est_tokens": 849,
+      "source": {
+        "href": "c12.xhtml",
+        "anchor": "head-2-226"
+      },
+      "meta": {
+        "nav_title": "Multimedia Collaboration",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "multimedia-collaboration.md"
+      },
+      "filename": "multimedia-collaboration.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-147",
+      "title": "Load Balancing",
+      "order": 147,
+      "est_tokens": 565,
+      "source": {
+        "href": "c12.xhtml",
+        "anchor": "head-2-227"
+      },
+      "meta": {
+        "nav_title": "Load Balancing",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "load-balancing.md"
+      },
+      "filename": "load-balancing.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-148",
+      "title": "Manage Email Security",
+      "order": 148,
+      "est_tokens": 3282,
+      "source": {
+        "href": "c12.xhtml",
+        "anchor": "head-2-228"
+      },
+      "meta": {
+        "nav_title": "Manage Email Security",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "manage-email-security.md"
+      },
+      "filename": "manage-email-security.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-149",
+      "title": "Virtual Private Network",
+      "order": 149,
+      "est_tokens": 3834,
+      "source": {
+        "href": "c12.xhtml",
+        "anchor": "head-2-231"
+      },
+      "meta": {
+        "nav_title": "Virtual Private Network",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "virtual-private-network.md"
+      },
+      "filename": "virtual-private-network.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-150",
+      "title": "Switching and Virtual LANs",
+      "order": 150,
+      "est_tokens": 2562,
+      "source": {
+        "href": "c12.xhtml",
+        "anchor": "head-2-232"
+      },
+      "meta": {
+        "nav_title": "Switching and Virtual LANs",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "switching-and-virtual-lans.md"
+      },
+      "filename": "switching-and-virtual-lans.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-151",
+      "title": "Network Address Translation",
+      "order": 151,
+      "est_tokens": 2403,
+      "source": {
+        "href": "c12.xhtml",
+        "anchor": "head-2-234"
+      },
+      "meta": {
+        "nav_title": "Network Address Translation",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "network-address-translation.md"
+      },
+      "filename": "network-address-translation.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-152",
+      "title": "Third-Party Connectivity",
+      "order": 152,
+      "est_tokens": 803,
+      "source": {
+        "href": "c12.xhtml",
+        "anchor": "head-2-238"
+      },
+      "meta": {
+        "nav_title": "Third-Party Connectivity",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "third-party-connectivity.md"
+      },
+      "filename": "third-party-connectivity.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-153",
+      "title": "Switching Technologies",
+      "order": 153,
+      "est_tokens": 1030,
+      "source": {
+        "href": "c12.xhtml",
+        "anchor": "head-2-239"
+      },
+      "meta": {
+        "nav_title": "Switching Technologies",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "switching-technologies.md"
+      },
+      "filename": "switching-technologies.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-154",
+      "title": "WAN Technologies",
+      "order": 154,
+      "est_tokens": 838,
+      "source": {
+        "href": "c12.xhtml",
+        "anchor": "head-2-241"
+      },
+      "meta": {
+        "nav_title": "WAN Technologies",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "wan-technologies.md"
+      },
+      "filename": "wan-technologies.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-155",
+      "title": "Fiber-Optic Links",
+      "order": 155,
+      "est_tokens": 288,
+      "source": {
+        "href": "c12.xhtml",
+        "anchor": "head-2-243"
+      },
+      "meta": {
+        "nav_title": "Fiber-Optic Links",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "fiber-optic-links.md"
+      },
+      "filename": "fiber-optic-links.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-156",
+      "title": "Security Control Characteristics",
+      "order": 156,
+      "est_tokens": 416,
+      "source": {
+        "href": "c12.xhtml",
+        "anchor": "head-2-244"
+      },
+      "meta": {
+        "nav_title": "Security Control Characteristics",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "security-control-characteristics.md"
+      },
+      "filename": "security-control-characteristics.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-157",
+      "title": "Prevent or Mitigate Network Attacks",
+      "order": 157,
+      "est_tokens": 541,
+      "source": {
+        "href": "c12.xhtml",
+        "anchor": "head-2-245"
+      },
+      "meta": {
+        "nav_title": "Prevent or Mitigate Network Attacks",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "prevent-or-mitigate-network-attacks.md"
+      },
+      "filename": "prevent-or-mitigate-network-attacks.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-158",
+      "title": "Summary",
+      "order": 158,
+      "est_tokens": 941,
+      "source": {
+        "href": "c12.xhtml",
+        "anchor": "head-2-246"
+      },
+      "meta": {
+        "nav_title": "Summary",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "summary-12.md"
+      },
+      "filename": "summary-12.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-159",
+      "title": "Exam Essentials",
+      "order": 159,
+      "est_tokens": 1380,
+      "source": {
+        "href": "c12.xhtml",
+        "anchor": "head-2-247"
+      },
+      "meta": {
+        "nav_title": "Exam Essentials",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "exam-essentials-12.md"
+      },
+      "filename": "exam-essentials-12.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-160",
+      "title": "Written Lab",
+      "order": 160,
+      "est_tokens": 80,
+      "source": {
+        "href": "c12.xhtml",
+        "anchor": "head-2-248"
+      },
+      "meta": {
+        "nav_title": "Written Lab",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "written-lab-12.md"
+      },
+      "filename": "written-lab-12.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-161",
+      "title": "Review Questions",
+      "order": 161,
+      "est_tokens": 1873,
+      "source": {
+        "href": "c12.xhtml",
+        "anchor": "head-2-249"
+      },
+      "meta": {
+        "nav_title": "Review Questions",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "review-questions-12.md"
+      },
+      "filename": "review-questions-12.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-162",
+      "title": "Controlling Access to Assets",
+      "order": 162,
+      "est_tokens": 958,
+      "source": {
+        "href": "c13.xhtml",
+        "anchor": "head-2-250"
+      },
+      "meta": {
+        "nav_title": "Controlling Access to Assets",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "controlling-access-to-assets.md"
+      },
+      "filename": "controlling-access-to-assets.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-163",
+      "title": "Managing Identification and Authentication",
+      "order": 163,
+      "est_tokens": 9215,
+      "source": {
+        "href": "c13.xhtml",
+        "anchor": "head-2-251"
+      },
+      "meta": {
+        "nav_title": "Managing Identification and Authentication",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "managing-identification-and-authentication.md"
+      },
+      "filename": "managing-identification-and-authentication.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-164",
+      "title": "Implementing Identity Management",
+      "order": 164,
+      "est_tokens": 3002,
+      "source": {
+        "href": "c13.xhtml",
+        "anchor": "head-2-255"
+      },
+      "meta": {
+        "nav_title": "Implementing Identity Management",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "implementing-identity-management.md"
+      },
+      "filename": "implementing-identity-management.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-165",
+      "title": "Managing the Identity and Access Provisioning Lifecycle",
+      "order": 165,
+      "est_tokens": 1988,
+      "source": {
+        "href": "c13.xhtml",
+        "anchor": "head-2-256"
+      },
+      "meta": {
+        "nav_title": "Managing the Identity and Access Provisioning Lifecycle",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "managing-the-identity-and-access-provisioning-lifecycle.md"
+      },
+      "filename": "managing-the-identity-and-access-provisioning-lifecycle.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-166",
+      "title": "Summary",
+      "order": 166,
+      "est_tokens": 293,
+      "source": {
+        "href": "c13.xhtml",
+        "anchor": "head-2-257"
+      },
+      "meta": {
+        "nav_title": "Summary",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "summary-13.md"
+      },
+      "filename": "summary-13.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-167",
+      "title": "Exam Essentials",
+      "order": 167,
+      "est_tokens": 951,
+      "source": {
+        "href": "c13.xhtml",
+        "anchor": "head-2-258"
+      },
+      "meta": {
+        "nav_title": "Exam Essentials",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "exam-essentials-13.md"
+      },
+      "filename": "exam-essentials-13.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-168",
+      "title": "Written Lab",
+      "order": 168,
+      "est_tokens": 79,
+      "source": {
+        "href": "c13.xhtml",
+        "anchor": "head-2-259"
+      },
+      "meta": {
+        "nav_title": "Written Lab",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "written-lab-13.md"
+      },
+      "filename": "written-lab-13.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-169",
+      "title": "Review Questions",
+      "order": 169,
+      "est_tokens": 1637,
+      "source": {
+        "href": "c13.xhtml",
+        "anchor": "head-2-260"
+      },
+      "meta": {
+        "nav_title": "Review Questions",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "review-questions-13.md"
+      },
+      "filename": "review-questions-13.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-170",
+      "title": "Comparing Access Control Models",
+      "order": 170,
+      "est_tokens": 6451,
+      "source": {
+        "href": "c14.xhtml",
+        "anchor": "head-2-261"
+      },
+      "meta": {
+        "nav_title": "Comparing Access Control Models",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "comparing-access-control-models.md"
+      },
+      "filename": "comparing-access-control-models.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-171",
+      "title": "Implementing Authentication Systems",
+      "order": 171,
+      "est_tokens": 4529,
+      "source": {
+        "href": "c14.xhtml",
+        "anchor": "head-2-263"
+      },
+      "meta": {
+        "nav_title": "Implementing Authentication Systems",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "implementing-authentication-systems.md"
+      },
+      "filename": "implementing-authentication-systems.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-172",
+      "title": "Understanding Access Control Attacks",
+      "order": 172,
+      "est_tokens": 8975,
+      "source": {
+        "href": "c14.xhtml",
+        "anchor": "head-2-265"
+      },
+      "meta": {
+        "nav_title": "Understanding Access Control Attacks",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "understanding-access-control-attacks.md"
+      },
+      "filename": "understanding-access-control-attacks.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-173",
+      "title": "Summary",
+      "order": 173,
+      "est_tokens": 368,
+      "source": {
+        "href": "c14.xhtml",
+        "anchor": "head-2-268"
+      },
+      "meta": {
+        "nav_title": "Summary",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "summary-14.md"
+      },
+      "filename": "summary-14.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-174",
+      "title": "Exam Essentials",
+      "order": 174,
+      "est_tokens": 1343,
+      "source": {
+        "href": "c14.xhtml",
+        "anchor": "head-2-269"
+      },
+      "meta": {
+        "nav_title": "Exam Essentials",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "exam-essentials-14.md"
+      },
+      "filename": "exam-essentials-14.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-175",
+      "title": "Written Lab",
+      "order": 175,
+      "est_tokens": 81,
+      "source": {
+        "href": "c14.xhtml",
+        "anchor": "head-2-270"
+      },
+      "meta": {
+        "nav_title": "Written Lab",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "written-lab-14.md"
+      },
+      "filename": "written-lab-14.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-176",
+      "title": "Review Questions",
+      "order": 176,
+      "est_tokens": 1566,
+      "source": {
+        "href": "c14.xhtml",
+        "anchor": "head-2-271"
+      },
+      "meta": {
+        "nav_title": "Review Questions",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "review-questions-14.md"
+      },
+      "filename": "review-questions-14.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-177",
+      "title": "Building a Security Assessment and Testing Program",
+      "order": 177,
+      "est_tokens": 2757,
+      "source": {
+        "href": "c15.xhtml",
+        "anchor": "head-2-272"
+      },
+      "meta": {
+        "nav_title": "Building a Security Assessment and Testing Program",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "building-a-security-assessment-and-testing-program.md"
+      },
+      "filename": "building-a-security-assessment-and-testing-program.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-178",
+      "title": "Performing Vulnerability Assessments",
+      "order": 178,
+      "est_tokens": 5218,
+      "source": {
+        "href": "c15.xhtml",
+        "anchor": "head-2-276"
+      },
+      "meta": {
+        "nav_title": "Performing Vulnerability Assessments",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "performing-vulnerability-assessments.md"
+      },
+      "filename": "performing-vulnerability-assessments.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-179",
+      "title": "Testing Your Software",
+      "order": 179,
+      "est_tokens": 2653,
+      "source": {
+        "href": "c15.xhtml",
+        "anchor": "head-2-279"
+      },
+      "meta": {
+        "nav_title": "Testing Your Software",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "testing-your-software.md"
+      },
+      "filename": "testing-your-software.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-180",
+      "title": "Implementing Security Management Processes",
+      "order": 180,
+      "est_tokens": 1286,
+      "source": {
+        "href": "c15.xhtml",
+        "anchor": "head-2-281"
+      },
+      "meta": {
+        "nav_title": "Implementing Security Management Processes",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "implementing-security-management-processes.md"
+      },
+      "filename": "implementing-security-management-processes.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-181",
+      "title": "Summary",
+      "order": 181,
+      "est_tokens": 286,
+      "source": {
+        "href": "c15.xhtml",
+        "anchor": "head-2-282"
+      },
+      "meta": {
+        "nav_title": "Summary",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "summary-15.md"
+      },
+      "filename": "summary-15.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-182",
+      "title": "Exam Essentials",
+      "order": 182,
+      "est_tokens": 579,
+      "source": {
+        "href": "c15.xhtml",
+        "anchor": "head-2-283"
+      },
+      "meta": {
+        "nav_title": "Exam Essentials",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "exam-essentials-15.md"
+      },
+      "filename": "exam-essentials-15.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-183",
+      "title": "Written Lab",
+      "order": 183,
+      "est_tokens": 63,
+      "source": {
+        "href": "c15.xhtml",
+        "anchor": "head-2-284"
+      },
+      "meta": {
+        "nav_title": "Written Lab",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "written-lab-15.md"
+      },
+      "filename": "written-lab-15.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-184",
+      "title": "Review Questions",
+      "order": 184,
+      "est_tokens": 1285,
+      "source": {
+        "href": "c15.xhtml",
+        "anchor": "head-2-285"
+      },
+      "meta": {
+        "nav_title": "Review Questions",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "review-questions-15.md"
+      },
+      "filename": "review-questions-15.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-185",
+      "title": "Apply Foundational Security Operations Concepts",
+      "order": 185,
+      "est_tokens": 3076,
+      "source": {
+        "href": "c16.xhtml",
+        "anchor": "head-2-286"
+      },
+      "meta": {
+        "nav_title": "Apply Foundational Security Operations Concepts",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "apply-foundational-security-operations-concepts.md"
+      },
+      "filename": "apply-foundational-security-operations-concepts.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-186",
+      "title": "Addressing Personnel Safety and Security",
+      "order": 186,
+      "est_tokens": 1305,
+      "source": {
+        "href": "c16.xhtml",
+        "anchor": "head-2-288"
+      },
+      "meta": {
+        "nav_title": "Addressing Personnel Safety and Security",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "addressing-personnel-safety-and-security.md"
+      },
+      "filename": "addressing-personnel-safety-and-security.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-187",
+      "title": "Provision Resources Securely",
+      "order": 187,
+      "est_tokens": 1196,
+      "source": {
+        "href": "c16.xhtml",
+        "anchor": "head-2-289"
+      },
+      "meta": {
+        "nav_title": "Provision Resources Securely",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "provision-resources-securely.md"
+      },
+      "filename": "provision-resources-securely.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-188",
+      "title": "Apply Resource Protection",
+      "order": 188,
+      "est_tokens": 1546,
+      "source": {
+        "href": "c16.xhtml",
+        "anchor": "head-2-290"
+      },
+      "meta": {
+        "nav_title": "Apply Resource Protection",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "apply-resource-protection.md"
+      },
+      "filename": "apply-resource-protection.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-189",
+      "title": "Managed Services in the Cloud",
+      "order": 189,
+      "est_tokens": 1375,
+      "source": {
+        "href": "c16.xhtml",
+        "anchor": "head-2-292"
+      },
+      "meta": {
+        "nav_title": "Managed Services in the Cloud",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "managed-services-in-the-cloud.md"
+      },
+      "filename": "managed-services-in-the-cloud.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-190",
+      "title": "Perform Configuration Management (CM)",
+      "order": 190,
+      "est_tokens": 986,
+      "source": {
+        "href": "c16.xhtml",
+        "anchor": "head-2-293"
+      },
+      "meta": {
+        "nav_title": "Perform Configuration Management (CM)",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "perform-configuration-management-cm.md"
+      },
+      "filename": "perform-configuration-management-cm.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-191",
+      "title": "Managing Change",
+      "order": 191,
+      "est_tokens": 1734,
+      "source": {
+        "href": "c16.xhtml",
+        "anchor": "head-2-294"
+      },
+      "meta": {
+        "nav_title": "Managing Change",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "managing-change.md"
+      },
+      "filename": "managing-change.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-192",
+      "title": "Managing Patches and Reducing Vulnerabilities",
+      "order": 192,
+      "est_tokens": 2034,
+      "source": {
+        "href": "c16.xhtml",
+        "anchor": "head-2-295"
+      },
+      "meta": {
+        "nav_title": "Managing Patches and Reducing Vulnerabilities",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "managing-patches-and-reducing-vulnerabilities.md"
+      },
+      "filename": "managing-patches-and-reducing-vulnerabilities.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-193",
+      "title": "Summary",
+      "order": 193,
+      "est_tokens": 513,
+      "source": {
+        "href": "c16.xhtml",
+        "anchor": "head-2-297"
+      },
+      "meta": {
+        "nav_title": "Summary",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "summary-16.md"
+      },
+      "filename": "summary-16.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-194",
+      "title": "Exam Essentials",
+      "order": 194,
+      "est_tokens": 941,
+      "source": {
+        "href": "c16.xhtml",
+        "anchor": "head-2-298"
+      },
+      "meta": {
+        "nav_title": "Exam Essentials",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "exam-essentials-16.md"
+      },
+      "filename": "exam-essentials-16.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-195",
+      "title": "Written Lab",
+      "order": 195,
+      "est_tokens": 69,
+      "source": {
+        "href": "c16.xhtml",
+        "anchor": "head-2-299"
+      },
+      "meta": {
+        "nav_title": "Written Lab",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "written-lab-16.md"
+      },
+      "filename": "written-lab-16.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-196",
+      "title": "Review Questions",
+      "order": 196,
+      "est_tokens": 1534,
+      "source": {
+        "href": "c16.xhtml",
+        "anchor": "head-2-300"
+      },
+      "meta": {
+        "nav_title": "Review Questions",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "review-questions-16.md"
+      },
+      "filename": "review-questions-16.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-197",
+      "title": "Conducting Incident Management",
+      "order": 197,
+      "est_tokens": 3336,
+      "source": {
+        "href": "c17.xhtml",
+        "anchor": "head-2-301"
+      },
+      "meta": {
+        "nav_title": "Conducting Incident Management",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "conducting-incident-management.md"
+      },
+      "filename": "conducting-incident-management.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-198",
+      "title": "Implementing Detective and Preventive Measures",
+      "order": 198,
+      "est_tokens": 13114,
+      "source": {
+        "href": "c17.xhtml",
+        "anchor": "head-2-303"
+      },
+      "meta": {
+        "nav_title": "Implementing Detective and Preventive Measures",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "implementing-detective-and-preventive-measures.md"
+      },
+      "filename": "implementing-detective-and-preventive-measures.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-199",
+      "title": "Logging and Monitoring",
+      "order": 199,
+      "est_tokens": 5908,
+      "source": {
+        "href": "c17.xhtml",
+        "anchor": "head-2-311"
+      },
+      "meta": {
+        "nav_title": "Logging and Monitoring",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "logging-and-monitoring.md"
+      },
+      "filename": "logging-and-monitoring.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-200",
+      "title": "Automating Incident Response",
+      "order": 200,
+      "est_tokens": 3030,
+      "source": {
+        "href": "c17.xhtml",
+        "anchor": "head-2-313"
+      },
+      "meta": {
+        "nav_title": "Automating Incident Response",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "automating-incident-response.md"
+      },
+      "filename": "automating-incident-response.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-201",
+      "title": "Summary",
+      "order": 201,
+      "est_tokens": 414,
+      "source": {
+        "href": "c17.xhtml",
+        "anchor": "head-2-314"
+      },
+      "meta": {
+        "nav_title": "Summary",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "summary-17.md"
+      },
+      "filename": "summary-17.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-202",
+      "title": "Exam Essentials",
+      "order": 202,
+      "est_tokens": 1622,
+      "source": {
+        "href": "c17.xhtml",
+        "anchor": "head-2-315"
+      },
+      "meta": {
+        "nav_title": "Exam Essentials",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "exam-essentials-17.md"
+      },
+      "filename": "exam-essentials-17.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-203",
+      "title": "Written Lab",
+      "order": 203,
+      "est_tokens": 55,
+      "source": {
+        "href": "c17.xhtml",
+        "anchor": "head-2-316"
+      },
+      "meta": {
+        "nav_title": "Written Lab",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "written-lab-17.md"
+      },
+      "filename": "written-lab-17.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-204",
+      "title": "Review Questions",
+      "order": 204,
+      "est_tokens": 1715,
+      "source": {
+        "href": "c17.xhtml",
+        "anchor": "head-2-317"
+      },
+      "meta": {
+        "nav_title": "Review Questions",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "review-questions-17.md"
+      },
+      "filename": "review-questions-17.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-205",
+      "title": "The Nature of Disaster",
+      "order": 205,
+      "est_tokens": 5227,
+      "source": {
+        "href": "c18.xhtml",
+        "anchor": "head-2-318"
+      },
+      "meta": {
+        "nav_title": "The Nature of Disaster",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "the-nature-of-disaster.md"
+      },
+      "filename": "the-nature-of-disaster.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-206",
+      "title": "Understand System Resilience, High Availability, and Fault Tolerance",
+      "order": 206,
+      "est_tokens": 3024,
+      "source": {
+        "href": "c18.xhtml",
+        "anchor": "head-2-321"
+      },
+      "meta": {
+        "nav_title": "Understand System Resilience, High Availability, and Fault Tolerance",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "understand-system-resilience-high-availability-and-fault-tolerance.md"
+      },
+      "filename": "understand-system-resilience-high-availability-and-fault-tolerance.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-207",
+      "title": "Recovery Strategy",
+      "order": 207,
+      "est_tokens": 5008,
+      "source": {
+        "href": "c18.xhtml",
+        "anchor": "head-2-322"
+      },
+      "meta": {
+        "nav_title": "Recovery Strategy",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "recovery-strategy.md"
+      },
+      "filename": "recovery-strategy.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-208",
+      "title": "Recovery Plan Development",
+      "order": 208,
+      "est_tokens": 4201,
+      "source": {
+        "href": "c18.xhtml",
+        "anchor": "head-2-325"
+      },
+      "meta": {
+        "nav_title": "Recovery Plan Development",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "recovery-plan-development.md"
+      },
+      "filename": "recovery-plan-development.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-209",
+      "title": "Training, Awareness, and Documentation",
+      "order": 209,
+      "est_tokens": 397,
+      "source": {
+        "href": "c18.xhtml",
+        "anchor": "head-2-329"
+      },
+      "meta": {
+        "nav_title": "Training, Awareness, and Documentation",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "training-awareness-and-documentation.md"
+      },
+      "filename": "training-awareness-and-documentation.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-210",
+      "title": "Testing and Maintenance",
+      "order": 210,
+      "est_tokens": 1402,
+      "source": {
+        "href": "c18.xhtml",
+        "anchor": "head-2-330"
+      },
+      "meta": {
+        "nav_title": "Testing and Maintenance",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "testing-and-maintenance.md"
+      },
+      "filename": "testing-and-maintenance.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-211",
+      "title": "Summary",
+      "order": 211,
+      "est_tokens": 192,
+      "source": {
+        "href": "c18.xhtml",
+        "anchor": "head-2-331"
+      },
+      "meta": {
+        "nav_title": "Summary",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "summary-18.md"
+      },
+      "filename": "summary-18.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-212",
+      "title": "Exam Essentials",
+      "order": 212,
+      "est_tokens": 479,
+      "source": {
+        "href": "c18.xhtml",
+        "anchor": "head-2-332"
+      },
+      "meta": {
+        "nav_title": "Exam Essentials",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "exam-essentials-18.md"
+      },
+      "filename": "exam-essentials-18.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-213",
+      "title": "Written Lab",
+      "order": 213,
+      "est_tokens": 60,
+      "source": {
+        "href": "c18.xhtml",
+        "anchor": "head-2-333"
+      },
+      "meta": {
+        "nav_title": "Written Lab",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "written-lab-18.md"
+      },
+      "filename": "written-lab-18.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-214",
+      "title": "Review Questions",
+      "order": 214,
+      "est_tokens": 1601,
+      "source": {
+        "href": "c18.xhtml",
+        "anchor": "head-2-334"
+      },
+      "meta": {
+        "nav_title": "Review Questions",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "review-questions-18.md"
+      },
+      "filename": "review-questions-18.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-215",
+      "title": "Investigations",
+      "order": 215,
+      "est_tokens": 7791,
+      "source": {
+        "href": "c19.xhtml",
+        "anchor": "head-2-335"
+      },
+      "meta": {
+        "nav_title": "Investigations",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "investigations.md"
+      },
+      "filename": "investigations.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-216",
+      "title": "Major Categories of Computer Crime",
+      "order": 216,
+      "est_tokens": 2720,
+      "source": {
+        "href": "c19.xhtml",
+        "anchor": "head-2-339"
+      },
+      "meta": {
+        "nav_title": "Major Categories of Computer Crime",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "major-categories-of-computer-crime.md"
+      },
+      "filename": "major-categories-of-computer-crime.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-217",
+      "title": "Ethics",
+      "order": 217,
+      "est_tokens": 2020,
+      "source": {
+        "href": "c19.xhtml",
+        "anchor": "head-2-342"
+      },
+      "meta": {
+        "nav_title": "Ethics",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "ethics.md"
+      },
+      "filename": "ethics.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-218",
+      "title": "Summary",
+      "order": 218,
+      "est_tokens": 324,
+      "source": {
+        "href": "c19.xhtml",
+        "anchor": "head-2-343"
+      },
+      "meta": {
+        "nav_title": "Summary",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "summary-19.md"
+      },
+      "filename": "summary-19.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-219",
+      "title": "Exam Essentials",
+      "order": 219,
+      "est_tokens": 713,
+      "source": {
+        "href": "c19.xhtml",
+        "anchor": "head-2-344"
+      },
+      "meta": {
+        "nav_title": "Exam Essentials",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "exam-essentials-19.md"
+      },
+      "filename": "exam-essentials-19.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-220",
+      "title": "Written Lab",
+      "order": 220,
+      "est_tokens": 57,
+      "source": {
+        "href": "c19.xhtml",
+        "anchor": "head-2-345"
+      },
+      "meta": {
+        "nav_title": "Written Lab",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "written-lab-19.md"
+      },
+      "filename": "written-lab-19.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-221",
+      "title": "Review Questions",
+      "order": 221,
+      "est_tokens": 1668,
+      "source": {
+        "href": "c19.xhtml",
+        "anchor": "head-2-346"
+      },
+      "meta": {
+        "nav_title": "Review Questions",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "review-questions-19.md"
+      },
+      "filename": "review-questions-19.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-222",
+      "title": "Introducing Systems Development Controls",
+      "order": 222,
+      "est_tokens": 14782,
+      "source": {
+        "href": "c20.xhtml",
+        "anchor": "head-2-347"
+      },
+      "meta": {
+        "nav_title": "Introducing Systems Development Controls",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "introducing-systems-development-controls.md"
+      },
+      "filename": "introducing-systems-development-controls.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-223",
+      "title": "Establishing Databases and Data Warehousing",
+      "order": 223,
+      "est_tokens": 5376,
+      "source": {
+        "href": "c20.xhtml",
+        "anchor": "head-2-352"
+      },
+      "meta": {
+        "nav_title": "Establishing Databases and Data Warehousing",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "establishing-databases-and-data-warehousing.md"
+      },
+      "filename": "establishing-databases-and-data-warehousing.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-224",
+      "title": "Storage Threats",
+      "order": 224,
+      "est_tokens": 492,
+      "source": {
+        "href": "c20.xhtml",
+        "anchor": "head-2-356"
+      },
+      "meta": {
+        "nav_title": "Storage Threats",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "storage-threats.md"
+      },
+      "filename": "storage-threats.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-225",
+      "title": "Understanding Knowledge-Based Systems",
+      "order": 225,
+      "est_tokens": 1255,
+      "source": {
+        "href": "c20.xhtml",
+        "anchor": "head-2-357"
+      },
+      "meta": {
+        "nav_title": "Understanding Knowledge-Based Systems",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "understanding-knowledge-based-systems.md"
+      },
+      "filename": "understanding-knowledge-based-systems.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-226",
+      "title": "Summary",
+      "order": 226,
+      "est_tokens": 222,
+      "source": {
+        "href": "c20.xhtml",
+        "anchor": "head-2-358"
+      },
+      "meta": {
+        "nav_title": "Summary",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "summary-20.md"
+      },
+      "filename": "summary-20.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-227",
+      "title": "Exam Essentials",
+      "order": 227,
+      "est_tokens": 703,
+      "source": {
+        "href": "c20.xhtml",
+        "anchor": "head-2-359"
+      },
+      "meta": {
+        "nav_title": "Exam Essentials",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "exam-essentials-20.md"
+      },
+      "filename": "exam-essentials-20.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-228",
+      "title": "Written Lab",
+      "order": 228,
+      "est_tokens": 69,
+      "source": {
+        "href": "c20.xhtml",
+        "anchor": "head-2-360"
+      },
+      "meta": {
+        "nav_title": "Written Lab",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "written-lab-20.md"
+      },
+      "filename": "written-lab-20.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-229",
+      "title": "Review Questions",
+      "order": 229,
+      "est_tokens": 1208,
+      "source": {
+        "href": "c20.xhtml",
+        "anchor": "head-2-361"
+      },
+      "meta": {
+        "nav_title": "Review Questions",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "review-questions-20.md"
+      },
+      "filename": "review-questions-20.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-230",
+      "title": "Malware",
+      "order": 230,
+      "est_tokens": 7096,
+      "source": {
+        "href": "c21.xhtml",
+        "anchor": "head-2-362"
+      },
+      "meta": {
+        "nav_title": "Malware",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "malware.md"
+      },
+      "filename": "malware.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-231",
+      "title": "Malware Prevention",
+      "order": 231,
+      "est_tokens": 1458,
+      "source": {
+        "href": "c21.xhtml",
+        "anchor": "head-2-367"
+      },
+      "meta": {
+        "nav_title": "Malware Prevention",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "malware-prevention.md"
+      },
+      "filename": "malware-prevention.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-232",
+      "title": "Application Attacks",
+      "order": 232,
+      "est_tokens": 1402,
+      "source": {
+        "href": "c21.xhtml",
+        "anchor": "head-2-368"
+      },
+      "meta": {
+        "nav_title": "Application Attacks",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "application-attacks.md"
+      },
+      "filename": "application-attacks.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-233",
+      "title": "Injection Vulnerabilities",
+      "order": 233,
+      "est_tokens": 2710,
+      "source": {
+        "href": "c21.xhtml",
+        "anchor": "head-2-369"
+      },
+      "meta": {
+        "nav_title": "Injection Vulnerabilities",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "injection-vulnerabilities.md"
+      },
+      "filename": "injection-vulnerabilities.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-234",
+      "title": "Exploiting Authorization Vulnerabilities",
+      "order": 234,
+      "est_tokens": 1728,
+      "source": {
+        "href": "c21.xhtml",
+        "anchor": "head-2-370"
+      },
+      "meta": {
+        "nav_title": "Exploiting Authorization Vulnerabilities",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "exploiting-authorization-vulnerabilities.md"
+      },
+      "filename": "exploiting-authorization-vulnerabilities.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-235",
+      "title": "Exploiting Web Application Vulnerabilities",
+      "order": 235,
+      "est_tokens": 2383,
+      "source": {
+        "href": "c21.xhtml",
+        "anchor": "head-2-373"
+      },
+      "meta": {
+        "nav_title": "Exploiting Web Application Vulnerabilities",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "exploiting-web-application-vulnerabilities.md"
+      },
+      "filename": "exploiting-web-application-vulnerabilities.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-236",
+      "title": "Application Security Controls",
+      "order": 236,
+      "est_tokens": 3052,
+      "source": {
+        "href": "c21.xhtml",
+        "anchor": "head-2-374"
+      },
+      "meta": {
+        "nav_title": "Application Security Controls",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "application-security-controls.md"
+      },
+      "filename": "application-security-controls.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-237",
+      "title": "Secure Coding Practices",
+      "order": 237,
+      "est_tokens": 1602,
+      "source": {
+        "href": "c21.xhtml",
+        "anchor": "head-2-377"
+      },
+      "meta": {
+        "nav_title": "Secure Coding Practices",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "secure-coding-practices.md"
+      },
+      "filename": "secure-coding-practices.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-238",
+      "title": "Summary",
+      "order": 238,
+      "est_tokens": 202,
+      "source": {
+        "href": "c21.xhtml",
+        "anchor": "head-2-378"
+      },
+      "meta": {
+        "nav_title": "Summary",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "summary-21.md"
+      },
+      "filename": "summary-21.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-239",
+      "title": "Exam Essentials",
+      "order": 239,
+      "est_tokens": 364,
+      "source": {
+        "href": "c21.xhtml",
+        "anchor": "head-2-379"
+      },
+      "meta": {
+        "nav_title": "Exam Essentials",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "exam-essentials-21.md"
+      },
+      "filename": "exam-essentials-21.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-240",
+      "title": "Written Lab",
+      "order": 240,
+      "est_tokens": 65,
+      "source": {
+        "href": "c21.xhtml",
+        "anchor": "head-2-380"
+      },
+      "meta": {
+        "nav_title": "Written Lab",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "written-lab-21.md"
+      },
+      "filename": "written-lab-21.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-241",
+      "title": "Review Questions",
+      "order": 241,
+      "est_tokens": 1474,
+      "source": {
+        "href": "c21.xhtml",
+        "anchor": "head-2-381"
+      },
+      "meta": {
+        "nav_title": "Review Questions",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "review-questions-21.md"
+      },
+      "filename": "review-questions-21.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-242",
+      "title": "Chapter 1: Security Governance Through Principles and Policies",
+      "order": 242,
+      "est_tokens": 2130,
+      "source": {
+        "href": "b01.xhtml",
+        "anchor": "head-2-3"
+      },
+      "meta": {
+        "nav_title": "Chapter 1: Security Governance Through Principles and Policies",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-1-security-governance-through-principles-and-policies.md"
+      },
+      "filename": "chapter-1-security-governance-through-principles-and-policies.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-243",
+      "title": "Chapter 2: Personnel Security and Risk Management Concepts",
+      "order": 243,
+      "est_tokens": 2953,
+      "source": {
+        "href": "b01.xhtml",
+        "anchor": "head-2-4"
+      },
+      "meta": {
+        "nav_title": "Chapter 2: Personnel Security and Risk Management Concepts",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-2-personnel-security-and-risk-management-concepts.md"
+      },
+      "filename": "chapter-2-personnel-security-and-risk-management-concepts.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-244",
+      "title": "Chapter 3: Business Continuity Planning",
+      "order": 244,
+      "est_tokens": 1253,
+      "source": {
+        "href": "b01.xhtml",
+        "anchor": "head-2-5"
+      },
+      "meta": {
+        "nav_title": "Chapter 3: Business Continuity Planning",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-3-business-continuity-planning.md"
+      },
+      "filename": "chapter-3-business-continuity-planning.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-245",
+      "title": "Chapter 4: Laws, Regulations, and Compliance",
+      "order": 245,
+      "est_tokens": 1255,
+      "source": {
+        "href": "b01.xhtml",
+        "anchor": "head-2-6"
+      },
+      "meta": {
+        "nav_title": "Chapter 4: Laws, Regulations, and Compliance",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-4-laws-regulations-and-compliance.md"
+      },
+      "filename": "chapter-4-laws-regulations-and-compliance.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-246",
+      "title": "Chapter 5: Protecting Security of Assets",
+      "order": 246,
+      "est_tokens": 1668,
+      "source": {
+        "href": "b01.xhtml",
+        "anchor": "head-2-7"
+      },
+      "meta": {
+        "nav_title": "Chapter 5: Protecting Security of Assets",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-5-protecting-security-of-assets.md"
+      },
+      "filename": "chapter-5-protecting-security-of-assets.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-247",
+      "title": "Chapter 6: Cryptography and Symmetric Key Algorithms",
+      "order": 247,
+      "est_tokens": 1154,
+      "source": {
+        "href": "b01.xhtml",
+        "anchor": "head-2-8"
+      },
+      "meta": {
+        "nav_title": "Chapter 6: Cryptography and Symmetric Key Algorithms",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-6-cryptography-and-symmetric-key-algorithms.md"
+      },
+      "filename": "chapter-6-cryptography-and-symmetric-key-algorithms.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-248",
+      "title": "Chapter 7: PKI and Cryptographic Applications",
+      "order": 248,
+      "est_tokens": 1113,
+      "source": {
+        "href": "b01.xhtml",
+        "anchor": "head-2-9"
+      },
+      "meta": {
+        "nav_title": "Chapter 7: PKI and Cryptographic Applications",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-7-pki-and-cryptographic-applications.md"
+      },
+      "filename": "chapter-7-pki-and-cryptographic-applications.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-249",
+      "title": "Chapter 8: Principles of Security Models, Design, and Capabilities",
+      "order": 249,
+      "est_tokens": 1969,
+      "source": {
+        "href": "b01.xhtml",
+        "anchor": "head-2-10"
+      },
+      "meta": {
+        "nav_title": "Chapter 8: Principles of Security Models, Design, and Capabilities",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-8-principles-of-security-models-design-and-capabilities.md"
+      },
+      "filename": "chapter-8-principles-of-security-models-design-and-capabilities.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-250",
+      "title": "Chapter 9: Security Vulnerabilities, Threats, and Countermeasures",
+      "order": 250,
+      "est_tokens": 3618,
+      "source": {
+        "href": "b01.xhtml",
+        "anchor": "head-2-11"
+      },
+      "meta": {
+        "nav_title": "Chapter 9: Security Vulnerabilities, Threats, and Countermeasures",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-9-security-vulnerabilities-threats-and-countermeasures.md"
+      },
+      "filename": "chapter-9-security-vulnerabilities-threats-and-countermeasures.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-251",
+      "title": "Chapter 10: Physical Security Requirements",
+      "order": 251,
+      "est_tokens": 2134,
+      "source": {
+        "href": "b01.xhtml",
+        "anchor": "head-2-12"
+      },
+      "meta": {
+        "nav_title": "Chapter 10: Physical Security Requirements",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-10-physical-security-requirements.md"
+      },
+      "filename": "chapter-10-physical-security-requirements.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-252",
+      "title": "Chapter 11: Secure Network Architecture and Components",
+      "order": 252,
+      "est_tokens": 2921,
+      "source": {
+        "href": "b01.xhtml",
+        "anchor": "head-2-13"
+      },
+      "meta": {
+        "nav_title": "Chapter 11: Secure Network Architecture and Components",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-11-secure-network-architecture-and-components.md"
+      },
+      "filename": "chapter-11-secure-network-architecture-and-components.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-253",
+      "title": "Chapter 12: Secure Communications and Network Attacks",
+      "order": 253,
+      "est_tokens": 2077,
+      "source": {
+        "href": "b01.xhtml",
+        "anchor": "head-2-14"
+      },
+      "meta": {
+        "nav_title": "Chapter 12: Secure Communications and Network Attacks",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-12-secure-communications-and-network-attacks.md"
+      },
+      "filename": "chapter-12-secure-communications-and-network-attacks.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-254",
+      "title": "Chapter 13: Managing Identity and Authentication",
+      "order": 254,
+      "est_tokens": 1528,
+      "source": {
+        "href": "b01.xhtml",
+        "anchor": "head-2-15"
+      },
+      "meta": {
+        "nav_title": "Chapter 13: Managing Identity and Authentication",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-13-managing-identity-and-authentication.md"
+      },
+      "filename": "chapter-13-managing-identity-and-authentication.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-255",
+      "title": "Chapter 14: Controlling and Monitoring Access",
+      "order": 255,
+      "est_tokens": 1553,
+      "source": {
+        "href": "b01.xhtml",
+        "anchor": "head-2-16"
+      },
+      "meta": {
+        "nav_title": "Chapter 14: Controlling and Monitoring Access",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-14-controlling-and-monitoring-access.md"
+      },
+      "filename": "chapter-14-controlling-and-monitoring-access.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-256",
+      "title": "Chapter 15: Security Assessment and Testing",
+      "order": 256,
+      "est_tokens": 822,
+      "source": {
+        "href": "b01.xhtml",
+        "anchor": "head-2-17"
+      },
+      "meta": {
+        "nav_title": "Chapter 15: Security Assessment and Testing",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-15-security-assessment-and-testing.md"
+      },
+      "filename": "chapter-15-security-assessment-and-testing.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-257",
+      "title": "Chapter 16: Managing Security Operations",
+      "order": 257,
+      "est_tokens": 1453,
+      "source": {
+        "href": "b01.xhtml",
+        "anchor": "head-2-18"
+      },
+      "meta": {
+        "nav_title": "Chapter 16: Managing Security Operations",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-16-managing-security-operations.md"
+      },
+      "filename": "chapter-16-managing-security-operations.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-258",
+      "title": "Chapter 17: Preventing and Responding to Incidents",
+      "order": 258,
+      "est_tokens": 1416,
+      "source": {
+        "href": "b01.xhtml",
+        "anchor": "head-2-19"
+      },
+      "meta": {
+        "nav_title": "Chapter 17: Preventing and Responding to Incidents",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-17-preventing-and-responding-to-incidents.md"
+      },
+      "filename": "chapter-17-preventing-and-responding-to-incidents.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-259",
+      "title": "Chapter 18: Disaster Recovery Planning",
+      "order": 259,
+      "est_tokens": 1319,
+      "source": {
+        "href": "b01.xhtml",
+        "anchor": "head-2-20"
+      },
+      "meta": {
+        "nav_title": "Chapter 18: Disaster Recovery Planning",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-18-disaster-recovery-planning.md"
+      },
+      "filename": "chapter-18-disaster-recovery-planning.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-260",
+      "title": "Chapter 19: Investigations and Ethics",
+      "order": 260,
+      "est_tokens": 1194,
+      "source": {
+        "href": "b01.xhtml",
+        "anchor": "head-2-21"
+      },
+      "meta": {
+        "nav_title": "Chapter 19: Investigations and Ethics",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-19-investigations-and-ethics.md"
+      },
+      "filename": "chapter-19-investigations-and-ethics.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-261",
+      "title": "Chapter 20: Software Development Security",
+      "order": 261,
+      "est_tokens": 1355,
+      "source": {
+        "href": "b01.xhtml",
+        "anchor": "head-2-22"
+      },
+      "meta": {
+        "nav_title": "Chapter 20: Software Development Security",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-20-software-development-security.md"
+      },
+      "filename": "chapter-20-software-development-security.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-262",
+      "title": "Chapter 21: Malicious Code and Application Attacks",
+      "order": 262,
+      "est_tokens": 1410,
+      "source": {
+        "href": "b01.xhtml",
+        "anchor": "head-2-23"
+      },
+      "meta": {
+        "nav_title": "Chapter 21: Malicious Code and Application Attacks",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-21-malicious-code-and-application-attacks.md"
+      },
+      "filename": "chapter-21-malicious-code-and-application-attacks.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-263",
+      "title": "Chapter 1: Security Governance Through Principles and Policies",
+      "order": 263,
+      "est_tokens": 218,
+      "source": {
+        "href": "b02.xhtml",
+        "anchor": "head-2-24"
+      },
+      "meta": {
+        "nav_title": "Chapter 1: Security Governance Through Principles and Policies",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-1-security-governance-through-principles-and-policies-2.md"
+      },
+      "filename": "chapter-1-security-governance-through-principles-and-policies-2.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-264",
+      "title": "Chapter 2: Personnel Security and Risk Management Concepts",
+      "order": 264,
+      "est_tokens": 522,
+      "source": {
+        "href": "b02.xhtml",
+        "anchor": "head-2-25"
+      },
+      "meta": {
+        "nav_title": "Chapter 2: Personnel Security and Risk Management Concepts",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-2-personnel-security-and-risk-management-concepts-2.md"
+      },
+      "filename": "chapter-2-personnel-security-and-risk-management-concepts-2.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-265",
+      "title": "Chapter 3: Business Continuity Planning",
+      "order": 265,
+      "est_tokens": 216,
+      "source": {
+        "href": "b02.xhtml",
+        "anchor": "head-2-26"
+      },
+      "meta": {
+        "nav_title": "Chapter 3: Business Continuity Planning",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-3-business-continuity-planning-2.md"
+      },
+      "filename": "chapter-3-business-continuity-planning-2.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-266",
+      "title": "Chapter 4: Laws, Regulations, and Compliance",
+      "order": 266,
+      "est_tokens": 534,
+      "source": {
+        "href": "b02.xhtml",
+        "anchor": "head-2-27"
+      },
+      "meta": {
+        "nav_title": "Chapter 4: Laws, Regulations, and Compliance",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-4-laws-regulations-and-compliance-2.md"
+      },
+      "filename": "chapter-4-laws-regulations-and-compliance-2.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-267",
+      "title": "Chapter 5: Protecting Security of Assets",
+      "order": 267,
+      "est_tokens": 291,
+      "source": {
+        "href": "b02.xhtml",
+        "anchor": "head-2-28"
+      },
+      "meta": {
+        "nav_title": "Chapter 5: Protecting Security of Assets",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-5-protecting-security-of-assets-2.md"
+      },
+      "filename": "chapter-5-protecting-security-of-assets-2.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-268",
+      "title": "Chapter 6: Cryptography and Symmetric Key Algorithms",
+      "order": 268,
+      "est_tokens": 864,
+      "source": {
+        "href": "b02.xhtml",
+        "anchor": "head-2-29"
+      },
+      "meta": {
+        "nav_title": "Chapter 6: Cryptography and Symmetric Key Algorithms",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-6-cryptography-and-symmetric-key-algorithms-2.md"
+      },
+      "filename": "chapter-6-cryptography-and-symmetric-key-algorithms-2.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-269",
+      "title": "Chapter 7: PKI and Cryptographic Applications",
+      "order": 269,
+      "est_tokens": 156,
+      "source": {
+        "href": "b02.xhtml",
+        "anchor": "head-2-30"
+      },
+      "meta": {
+        "nav_title": "Chapter 7: PKI and Cryptographic Applications",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-7-pki-and-cryptographic-applications-2.md"
+      },
+      "filename": "chapter-7-pki-and-cryptographic-applications-2.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-270",
+      "title": "Chapter 8: Principles of Security Models, Design, and Capabilities",
+      "order": 270,
+      "est_tokens": 434,
+      "source": {
+        "href": "b02.xhtml",
+        "anchor": "head-2-31"
+      },
+      "meta": {
+        "nav_title": "Chapter 8: Principles of Security Models, Design, and Capabilities",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-8-principles-of-security-models-design-and-capabilities-2.md"
+      },
+      "filename": "chapter-8-principles-of-security-models-design-and-capabilities-2.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-271",
+      "title": "Chapter 9: Security Vulnerabilities, Threats, and Countermeasures",
+      "order": 271,
+      "est_tokens": 771,
+      "source": {
+        "href": "b02.xhtml",
+        "anchor": "head-2-32"
+      },
+      "meta": {
+        "nav_title": "Chapter 9: Security Vulnerabilities, Threats, and Countermeasures",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-9-security-vulnerabilities-threats-and-countermeasures-2.md"
+      },
+      "filename": "chapter-9-security-vulnerabilities-threats-and-countermeasures-2.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-272",
+      "title": "Chapter 10: Physical Security Requirements",
+      "order": 272,
+      "est_tokens": 800,
+      "source": {
+        "href": "b02.xhtml",
+        "anchor": "head-2-33"
+      },
+      "meta": {
+        "nav_title": "Chapter 10: Physical Security Requirements",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-10-physical-security-requirements-2.md"
+      },
+      "filename": "chapter-10-physical-security-requirements-2.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-273",
+      "title": "Chapter 11: Secure Network Architecture and Components",
+      "order": 273,
+      "est_tokens": 535,
+      "source": {
+        "href": "b02.xhtml",
+        "anchor": "head-2-34"
+      },
+      "meta": {
+        "nav_title": "Chapter 11: Secure Network Architecture and Components",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-11-secure-network-architecture-and-components-2.md"
+      },
+      "filename": "chapter-11-secure-network-architecture-and-components-2.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-274",
+      "title": "Chapter 12: Secure Communications and Network Attacks",
+      "order": 274,
+      "est_tokens": 902,
+      "source": {
+        "href": "b02.xhtml",
+        "anchor": "head-2-35"
+      },
+      "meta": {
+        "nav_title": "Chapter 12: Secure Communications and Network Attacks",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-12-secure-communications-and-network-attacks-2.md"
+      },
+      "filename": "chapter-12-secure-communications-and-network-attacks-2.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-275",
+      "title": "Chapter 13: Managing Identity and Authentication",
+      "order": 275,
+      "est_tokens": 323,
+      "source": {
+        "href": "b02.xhtml",
+        "anchor": "head-2-36"
+      },
+      "meta": {
+        "nav_title": "Chapter 13: Managing Identity and Authentication",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-13-managing-identity-and-authentication-2.md"
+      },
+      "filename": "chapter-13-managing-identity-and-authentication-2.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-276",
+      "title": "Chapter 14: Controlling and Monitoring Access",
+      "order": 276,
+      "est_tokens": 344,
+      "source": {
+        "href": "b02.xhtml",
+        "anchor": "head-2-37"
+      },
+      "meta": {
+        "nav_title": "Chapter 14: Controlling and Monitoring Access",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-14-controlling-and-monitoring-access-2.md"
+      },
+      "filename": "chapter-14-controlling-and-monitoring-access-2.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-277",
+      "title": "Chapter 15: Security Assessment and Testing",
+      "order": 277,
+      "est_tokens": 484,
+      "source": {
+        "href": "b02.xhtml",
+        "anchor": "head-2-38"
+      },
+      "meta": {
+        "nav_title": "Chapter 15: Security Assessment and Testing",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-15-security-assessment-and-testing-2.md"
+      },
+      "filename": "chapter-15-security-assessment-and-testing-2.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-278",
+      "title": "Chapter 16: Managing Security Operations",
+      "order": 278,
+      "est_tokens": 263,
+      "source": {
+        "href": "b02.xhtml",
+        "anchor": "head-2-39"
+      },
+      "meta": {
+        "nav_title": "Chapter 16: Managing Security Operations",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-16-managing-security-operations-2.md"
+      },
+      "filename": "chapter-16-managing-security-operations-2.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-279",
+      "title": "Chapter 17: Preventing and Responding to Incidents",
+      "order": 279,
+      "est_tokens": 280,
+      "source": {
+        "href": "b02.xhtml",
+        "anchor": "head-2-40"
+      },
+      "meta": {
+        "nav_title": "Chapter 17: Preventing and Responding to Incidents",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-17-preventing-and-responding-to-incidents-2.md"
+      },
+      "filename": "chapter-17-preventing-and-responding-to-incidents-2.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-280",
+      "title": "Chapter 18: Disaster Recovery Planning",
+      "order": 280,
+      "est_tokens": 466,
+      "source": {
+        "href": "b02.xhtml",
+        "anchor": "head-2-41"
+      },
+      "meta": {
+        "nav_title": "Chapter 18: Disaster Recovery Planning",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-18-disaster-recovery-planning-2.md"
+      },
+      "filename": "chapter-18-disaster-recovery-planning-2.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-281",
+      "title": "Chapter 19: Investigations and Ethics",
+      "order": 281,
+      "est_tokens": 122,
+      "source": {
+        "href": "b02.xhtml",
+        "anchor": "head-2-42"
+      },
+      "meta": {
+        "nav_title": "Chapter 19: Investigations and Ethics",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-19-investigations-and-ethics-2.md"
+      },
+      "filename": "chapter-19-investigations-and-ethics-2.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-282",
+      "title": "Chapter 20: Software Development Security",
+      "order": 282,
+      "est_tokens": 233,
+      "source": {
+        "href": "b02.xhtml",
+        "anchor": "head-2-43"
+      },
+      "meta": {
+        "nav_title": "Chapter 20: Software Development Security",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-20-software-development-security-2.md"
+      },
+      "filename": "chapter-20-software-development-security-2.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-283",
+      "title": "Chapter 21: Malicious Code and Application Attacks",
+      "order": 283,
+      "est_tokens": 244,
+      "source": {
+        "href": "b02.xhtml",
+        "anchor": "head-2-44"
+      },
+      "meta": {
+        "nav_title": "Chapter 21: Malicious Code and Application Attacks",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "chapter-21-malicious-code-and-application-attacks-2.md"
+      },
+      "filename": "chapter-21-malicious-code-and-application-attacks-2.md",
+      "kind": "chapter"
+    },
+    {
+      "id": "chapter-284",
+      "title": "Index",
+      "order": 284,
+      "est_tokens": 49315,
+      "source": {
+        "href": "b03.xhtml",
+        "anchor": null
+      },
+      "meta": {
+        "nav_title": "Index",
+        "enriched_from": "start-heading",
+        "kind": "index",
+        "filename": "index.md"
+      },
+      "filename": "index.md",
+      "kind": "index"
+    },
+    {
+      "id": "chapter-285",
+      "title": "End User License Agreement",
+      "order": 285,
+      "est_tokens": 27,
+      "source": {
+        "href": "eula.xhtml",
+        "anchor": null
+      },
+      "meta": {
+        "nav_title": "End User License Agreement",
+        "enriched_from": "start-heading",
+        "kind": "chapter",
+        "filename": "end-user-license-agreement.md"
+      },
+      "filename": "end-user-license-agreement.md",
+      "kind": "chapter"
+    }
+  ]
+}
