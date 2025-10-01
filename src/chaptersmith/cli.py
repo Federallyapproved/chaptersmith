@@ -1,4 +1,9 @@
-"""Command line interface for Chaptersmith."""
+"""Command line interface for Chaptersmith.
+
+Split books into normalized chapters, selectively include/exclude chapters,
+bundle them into super-chunks sized for different model profiles, and validate
+budgets.
+"""
 
 from __future__ import annotations
 
@@ -24,10 +29,14 @@ from .selection import (
     select_chapters,
 )
 
-app = typer.Typer(name="chaptersmith")
+app = typer.Typer(
+    name="chaptersmith",
+    help="Split, select, bundle, and validate book chapters for LLM workflows.",
+    no_args_is_help=True,
+)
 console = Console()
 
-_FORMATS = {"epub", "html", "md", "fb2"}
+_FORMATS = {"epub", "html", "md"}  # FB2 not yet implemented; keep out of CLI help
 
 
 def _resolve_profile(profile_name: str) -> ModelProfile:
@@ -125,31 +134,34 @@ def _apply_selection(
 
 @app.command()
 def split(
-    input_path: Path = typer.Argument(..., help="Path to the source book."),
-    format: Literal["epub", "html", "md", "fb2"] = typer.Option(
-        ..., "--format", "-f", help="Source format."
+    input_path: Path = typer.Argument(..., help="Path to the source book file (EPUB/HTML/MD)."),
+    format: Literal["epub", "html", "md"] = typer.Option(
+        ..., "--format", "-f", help="Source format: epub | html | md."
     ),
     out: Path | None = typer.Option(
         None,
-        help="Output directory (default: data/<slug-of-book-title>).",
+        help="Output directory (default: data/<slug-of-book-title>). Will be created if missing.",
     ),
-    book_id: str | None = typer.Option(None, help="Override book identifier."),
-    title: str | None = typer.Option(None, help="Override book title."),
-    author: str | None = typer.Option(None, help="Override book author."),
+    book_id: str | None = typer.Option(None, help="Override book identifier (defaults to file metadata or stem)."),
+    title: str | None = typer.Option(None, help="Override book title (defaults to metadata or filename)."),
+    author: str | None = typer.Option(None, help="Override book author (defaults to metadata or 'Unknown')."),
     skip_kinds: list[str] = typer.Option(
         [],
         "--skip-kinds",
-        help="Kinds to omit (repeatable). E.g., --skip-kinds cover --skip-kinds title-page --skip-kinds part-cover",
+        help=(
+            "Kinds to omit (repeatable). Examples: cover, title-page, contents, "
+            "acknowledgments, part-cover, appendix, notes, bibliography, index."
+        ),
     ),
     start_title: str | None = typer.Option(
         None,
         "--start-title",
-        help="Start from the first chapter whose title contains this text (case-insensitive).",
+        help="Start from the first chapter whose *title contains* this text (case-insensitive).",
     ),
     end_title: str | None = typer.Option(
         None,
         "--end-title",
-        help="End after the first chapter whose title contains this text (case-insensitive).",
+        help="End after the first chapter whose *title contains* this text (case-insensitive).",
     ),
 ) -> None:
     """Split a book into normalized chapters."""
@@ -163,8 +175,8 @@ def split(
         book = ingest_html(input_path, book_id=book_id, title=title, author=author)
     elif format == "md":
         book = ingest_markdown(input_path, book_id=book_id, title=title, author=author)
-    else:  # fb2
-        raise typer.BadParameter("FB2 ingestion is not yet implemented.")
+    else:  # defensive
+        raise typer.BadParameter("Unsupported format.")
 
     # Compute default outdir if not provided
     if out is None:
@@ -191,22 +203,23 @@ def split(
     _write_index(book, outdir)
 
     console.print(f"[green]Wrote chapters to {outdir}[/]")
+    _print_split_summary(book)
 
 
 @app.command()
 def bundle(
     outdir: Path = typer.Argument(..., help="Directory containing book manifest and chapters."),
-    profile: str = typer.Option(..., help="Profile used for bundling."),
-    select: Optional[Path] = typer.Option(None, help="Selection YAML/JSON."),
-    skip_front: bool = typer.Option(False, help="Skip front matter."),
-    skip_parts: bool = typer.Option(False, help="Skip 'Part ...' pages."),
-    skip_back: bool = typer.Option(False, help="Skip back matter."),
-    from_spec: Optional[str] = typer.Option(None, "--from", help="Start chapter (id/slug/title/order)."),
-    to_spec: Optional[str] = typer.Option(None, "--to", help="End chapter (id/slug/title/order)."),
-    include_regex: Optional[str] = typer.Option(None, help="Regex to include (title or slug)."),
-    exclude_regex: Optional[str] = typer.Option(None, help="Regex to exclude (title or slug)."),
-    only_ids: Optional[str] = typer.Option(None, help="Comma-separated ids to include."),
-    only_slugs: Optional[str] = typer.Option(None, help="Comma-separated slugs to include."),
+    profile: str = typer.Option(..., help="Model profile (see profiles.py)."),
+    select: Optional[Path] = typer.Option(None, help="Selection file (YAML/JSON). See README for schema."),
+    skip_front: bool = typer.Option(False, help="Skip front-matter (cover, title-page, contents, etc.)."),
+    skip_parts: bool = typer.Option(False, help="Skip PART/SECTION divider pages."),
+    skip_back: bool = typer.Option(False, help="Skip back-matter (appendix, notes, bibliography, index)."),
+    from_spec: Optional[str] = typer.Option(None, "--from", help="Start chapter (match by id, slug, title, or order number)."),
+    to_spec: Optional[str] = typer.Option(None, "--to", help="End chapter (match by id, slug, title, or order number)."),
+    include_regex: Optional[str] = typer.Option(None, help="Regex to include by title or slug."),
+    exclude_regex: Optional[str] = typer.Option(None, help="Regex to exclude by title or slug."),
+    only_ids: Optional[str] = typer.Option(None, help="Comma/space-separated chapter ids to include (whitelist)."),
+    only_slugs: Optional[str] = typer.Option(None, help="Comma/space-separated chapter slugs to include (whitelist)."),
 ) -> None:
     """Bundle chapter data into superchunks."""
 
@@ -305,17 +318,17 @@ def stats(
 @app.command()
 def export(
     outdir: Path = typer.Argument(..., help="Directory with chapters and manifest."),
-    select: Optional[Path] = typer.Option(None, help="Selection YAML/JSON."),
-    skip_front: bool = typer.Option(False, help="Skip front matter."),
-    skip_parts: bool = typer.Option(False, help="Skip 'Part ...' pages."),
-    skip_back: bool = typer.Option(False, help="Skip back matter."),
-    from_spec: Optional[str] = typer.Option(None, "--from", help="Start chapter (id/slug/title/order)."),
-    to_spec: Optional[str] = typer.Option(None, "--to", help="End chapter (id/slug/title/order)."),
-    include_regex: Optional[str] = typer.Option(None, help="Regex to include (title or slug)."),
-    exclude_regex: Optional[str] = typer.Option(None, help="Regex to exclude (title or slug)."),
-    only_ids: Optional[str] = typer.Option(None, help="Comma-separated ids to include."),
-    only_slugs: Optional[str] = typer.Option(None, help="Comma-separated slugs to include."),
-    join: Optional[Path] = typer.Option(None, help="Write a single joined Markdown to this path."),
+    select: Optional[Path] = typer.Option(None, help="Selection file (YAML/JSON). See README for schema."),
+    skip_front: bool = typer.Option(False, help="Skip front-matter."),
+    skip_parts: bool = typer.Option(False, help="Skip PART/SECTION divider pages."),
+    skip_back: bool = typer.Option(False, help="Skip back-matter."),
+    from_spec: Optional[str] = typer.Option(None, "--from", help="Start chapter (match by id, slug, title, or order number)."),
+    to_spec: Optional[str] = typer.Option(None, "--to", help="End chapter (match by id, slug, title, or order number)."),
+    include_regex: Optional[str] = typer.Option(None, help="Regex to include by title or slug."),
+    exclude_regex: Optional[str] = typer.Option(None, help="Regex to exclude by title or slug."),
+    only_ids: Optional[str] = typer.Option(None, help="Comma/space-separated chapter ids to include."),
+    only_slugs: Optional[str] = typer.Option(None, help="Comma/space-separated chapter slugs to include."),
+    join: Optional[Path] = typer.Option(None, help="Write a single joined Markdown to this path (relative to outdir if not absolute)."),
     print_total: bool = typer.Option(False, help="Print total tokens for the selected set."),
 ) -> None:
     book = _load_book(outdir)
@@ -591,6 +604,24 @@ def _read_markdown_payload(
                 metadata = fallback_meta.copy() if fallback_meta else {}
             return remainder.rstrip("\n"), metadata or (fallback_meta.copy() if fallback_meta else {})
     return content.rstrip("\n"), fallback_meta.copy() if fallback_meta else {}
+
+
+# ---------- helpers ----------
+
+def _print_split_summary(book: Book) -> None:
+    """Print a compact post-split stats summary."""
+    tokenizer = count_gpt5_tokens
+    total_tokens = 0
+    for ch in book.chapters:
+        total_tokens += (ch.est_tokens or tokenizer(ch.text))
+
+    console.print("\n[bold]Split Summary[/]")
+    console.print(f"- Chapters written: {len(book.chapters)}")
+    console.print(f"- Total tokens (o200k): {total_tokens}")
+    console.print("[bold]- Estimated super-chunks by profile:[/]")
+    for profile in ALL_PROFILES.values():
+        estimate = max(1, (total_tokens + profile.safe_input_budget - 1) // profile.safe_input_budget)
+        console.print(f"  • {profile.name}: ~{estimate}")
 
 
 def main() -> None:
